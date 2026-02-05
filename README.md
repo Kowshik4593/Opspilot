@@ -247,13 +247,7 @@ python show_tasks.py     # Display active tasks
 3. Test thoroughly
 4. Submit a pull request
 
-## 📝 License
 
-[Add your license here]
-
-## 👥 Team
-
-[Add team information here]
 
 ## 📧 Support
 
