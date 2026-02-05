@@ -2,7 +2,7 @@
   
 # OpsPilot - Multi-Agent Workplace Automation System
 
-<img src="./assets/logo.svg" alt="OpsPilot Logo" width="200"/>
+<img src="./assets/logo.png" alt="OpsPilot Logo" width="200"/>
 
 *Intelligent Workplace Automation powered by Multi-Agent AI*
 
