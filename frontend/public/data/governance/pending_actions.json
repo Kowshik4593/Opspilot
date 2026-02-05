@@ -1,0 +1,2489 @@
+[
+  {
+    "action_id": "pa_1c017e51",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_9f2ff527",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ],
+      "task_id": "tsk_f438910f",
+      "created_utc": "2026-01-28T04:58:16.200302",
+      "status": "todo"
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "executed",
+    "created_utc": "2026-01-28T04:57:51.393767",
+    "reviewed_utc": "2026-01-28T04:58:16.197525",
+    "reviewed_by": "demo_user",
+    "execution_result": {
+      "success": true,
+      "result": {
+        "title": "Respond to Sara Johnson",
+        "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+        "priority": "P0",
+        "source_type": "email",
+        "source_ref_id": "eml_demo_9f2ff527",
+        "tags": [
+          "acme-corp",
+          "email-response",
+          "agent-created"
+        ],
+        "task_id": "tsk_f438910f",
+        "created_utc": "2026-01-28T04:58:16.200302",
+        "status": "todo"
+      }
+    },
+    "review_notes": null
+  },
+  {
+    "action_id": "pa_d615d617",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_9f2ff527",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ],
+      "task_id": "tsk_f438910f",
+      "created_utc": "2026-01-28T04:58:16.200302",
+      "status": "todo"
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "executed",
+    "created_utc": "2026-01-28T04:57:51.393767",
+    "reviewed_utc": "2026-01-28T04:58:19.715384",
+    "reviewed_by": "demo_user",
+    "execution_result": {
+      "success": true,
+      "result": {
+        "title": "Respond to Sara Johnson",
+        "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+        "priority": "P0",
+        "source_type": "email",
+        "source_ref_id": "eml_demo_9f2ff527",
+        "tags": [
+          "acme-corp",
+          "email-response",
+          "agent-created"
+        ],
+        "task_id": "tsk_f438910f",
+        "created_utc": "2026-01-28T04:58:16.200302",
+        "status": "todo"
+      }
+    },
+    "review_notes": null
+  },
+  {
+    "action_id": "pa_2dbf2a9a",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_9f2ff527",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.407879",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_6607db89",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_9f2ff527",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ],
+      "task_id": "tsk_f438910f",
+      "created_utc": "2026-01-28T04:58:16.200302",
+      "status": "todo"
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.430162",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_d30120fa",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_9f2ff527",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.441333",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_f2bd6892",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_9f2ff527",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ],
+      "task_id": "tsk_f438910f",
+      "created_utc": "2026-01-28T04:58:16.200302",
+      "status": "todo"
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.452513",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_7973d021",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_9f2ff527",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.466532",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_64d0a8b6",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_9f2ff527",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ],
+      "task_id": "tsk_f438910f",
+      "created_utc": "2026-01-28T04:58:16.200302",
+      "status": "todo"
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.480379",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_752ad25c",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_9f2ff527",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_demo_9f2ff527",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.488471",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_8b57562a",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Amit Patel",
+      "description": "\ud83d\udce7 Email from: Amit Patel (amit.patel@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: GlobalTech Firewall Issue - Need to Escalate?\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nI just got off the call with GlobalTech network team. The firewall issue is more complex than we thought - they have legacy rules that were never documented. This could take 3-4 weeks to sort out.\n\nShould I escalate to Rajesh? Or do you want to talk to Marcus directly?\n\nAmit...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_amit_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.537496",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_5db97a09",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Amit Patel",
+      "description": "\ud83d\udce7 Email from: Amit Patel (amit.patel@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: GlobalTech Firewall Issue - Need to Escalate?\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nI just got off the call with GlobalTech network team. The firewall issue is more complex than we thought - they have legacy rules that were never documented. This could take 3-4 weeks to sort out.\n\nShould I escalate to Rajesh? Or do you want to talk to Marcus directly?\n\nAmit...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_amit_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.554166",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_9d369a8d",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_amit_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Amit Patel",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Amit Patel",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.561643",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_4c00a367",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Amit Patel",
+      "description": "\ud83d\udce7 Email from: Amit Patel (amit.patel@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: GlobalTech Firewall Issue - Need to Escalate?\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nI just got off the call with GlobalTech network team. The firewall issue is more complex than we thought - they have legacy rules that were never documented. This could take 3-4 weeks to sort out.\n\nShould I escalate to Rajesh? Or do you want to talk to Marcus directly?\n\nAmit...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_amit_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.576070",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_c5d50d48",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_amit_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Amit Patel",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Amit Patel",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.592697",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_87d56a04",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Amit Patel",
+      "description": "\ud83d\udce7 Email from: Amit Patel (amit.patel@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: GlobalTech Firewall Issue - Need to Escalate?\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nI just got off the call with GlobalTech network team. The firewall issue is more complex than we thought - they have legacy rules that were never documented. This could take 3-4 weeks to sort out.\n\nShould I escalate to Rajesh? Or do you want to talk to Marcus directly?\n\nAmit...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_amit_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.617003",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_aab1f4cc",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_amit_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Amit Patel",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Amit Patel",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.620916",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_e48bc75e",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Amit Patel",
+      "description": "\ud83d\udce7 Email from: Amit Patel (amit.patel@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: GlobalTech Firewall Issue - Need to Escalate?\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nI just got off the call with GlobalTech network team. The firewall issue is more complex than we thought - they have legacy rules that were never documented. This could take 3-4 weeks to sort out.\n\nShould I escalate to Rajesh? Or do you want to talk to Marcus directly?\n\nAmit...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_amit_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.638098",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_5f6d0f0b",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_amit_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Amit Patel",
+    "source_email_id": "eml_internal_amit_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Amit Patel",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.650413",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_a375f54f",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: RE: URGENT: API Integration Blocker - Timeline Impact\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nJust got your initial assessment. The 3-day fix is acceptable if you can commit. Can we do a war room session tomorrow morning (8 AM Pacific) with your team and ours?\n\nI will get our API lead on the call too.\n\nSara...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_acme_meeting_004",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.695944",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_c07c391c",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: RE: URGENT: API Integration Blocker - Timeline Impact\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nJust got your initial assessment. The 3-day fix is acceptable if you can commit. Can we do a war room session tomorrow morning (8 AM Pacific) with your team and ours?\n\nI will get our API lead on the call too.\n\nSara...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_acme_meeting_004",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.712662",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_c56295e2",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_acme_meeting_004",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.721351",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_cb980300",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: RE: URGENT: API Integration Blocker - Timeline Impact\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nJust got your initial assessment. The 3-day fix is acceptable if you can commit. Can we do a war room session tomorrow morning (8 AM Pacific) with your team and ours?\n\nI will get our API lead on the call too.\n\nSara...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_acme_meeting_004",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.737612",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_b7004d1b",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_acme_meeting_004",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.745676",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_8ef1577c",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: RE: URGENT: API Integration Blocker - Timeline Impact\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nJust got your initial assessment. The 3-day fix is acceptable if you can commit. Can we do a war room session tomorrow morning (8 AM Pacific) with your team and ours?\n\nI will get our API lead on the call too.\n\nSara...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_acme_meeting_004",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.772003",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_0276057f",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_acme_meeting_004",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.772003",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_441bac4b",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Sara Johnson",
+      "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: RE: URGENT: API Integration Blocker - Timeline Impact\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nJust got your initial assessment. The 3-day fix is acceptable if you can commit. Can we do a war room session tomorrow morning (8 AM Pacific) with your team and ours?\n\nI will get our API lead on the call too.\n\nSara...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_acme_meeting_004",
+      "tags": [
+        "acme-corp",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Acme Corp client needs response",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Acme Corp client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.794411",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_0504dede",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_acme_meeting_004",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Sara Johnson",
+    "source_email_id": "eml_acme_meeting_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Sara Johnson",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.804736",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_5425e7d2",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Neha Gupta",
+      "description": "\ud83d\udce7 Email from: Neha Gupta (neha.gupta@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: QA Sign-off Status - Acme, TechVision, GlobalTech\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nHere is the current QA status for all active projects:\n\n- Acme CoreAPI: 85% test coverage, ready for UAT\n- TechVision Migration: Infrastructure tests completed, security tests in progress\n- GlobalTech Pilot: Blocked on network config (waiting for firewall rules)\n\nLet me know if you need...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_neha_qa_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.915694",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_7f925270",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Neha Gupta",
+      "description": "\ud83d\udce7 Email from: Neha Gupta (neha.gupta@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: QA Sign-off Status - Acme, TechVision, GlobalTech\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nHere is the current QA status for all active projects:\n\n- Acme CoreAPI: 85% test coverage, ready for UAT\n- TechVision Migration: Infrastructure tests completed, security tests in progress\n- GlobalTech Pilot: Blocked on network config (waiting for firewall rules)\n\nLet me know if you need...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_neha_qa_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.923902",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_1378eb28",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_neha_qa_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Neha Gupta",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Neha Gupta",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.936025",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_9ac33984",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Neha Gupta",
+      "description": "\ud83d\udce7 Email from: Neha Gupta (neha.gupta@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: QA Sign-off Status - Acme, TechVision, GlobalTech\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nHere is the current QA status for all active projects:\n\n- Acme CoreAPI: 85% test coverage, ready for UAT\n- TechVision Migration: Infrastructure tests completed, security tests in progress\n- GlobalTech Pilot: Blocked on network config (waiting for firewall rules)\n\nLet me know if you need...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_neha_qa_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.942552",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_5a2c5fed",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_neha_qa_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Neha Gupta",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Neha Gupta",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.956069",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_0e1a3b98",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Neha Gupta",
+      "description": "\ud83d\udce7 Email from: Neha Gupta (neha.gupta@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: QA Sign-off Status - Acme, TechVision, GlobalTech\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nHere is the current QA status for all active projects:\n\n- Acme CoreAPI: 85% test coverage, ready for UAT\n- TechVision Migration: Infrastructure tests completed, security tests in progress\n- GlobalTech Pilot: Blocked on network config (waiting for firewall rules)\n\nLet me know if you need...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_neha_qa_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.956069",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_490c7324",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_neha_qa_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Neha Gupta",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Neha Gupta",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.972381",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_19e45dbb",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Neha Gupta",
+      "description": "\ud83d\udce7 Email from: Neha Gupta (neha.gupta@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-27\n\n---\nSubject: QA Sign-off Status - Acme, TechVision, GlobalTech\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nHere is the current QA status for all active projects:\n\n- Acme CoreAPI: 85% test coverage, ready for UAT\n- TechVision Migration: Infrastructure tests completed, security tests in progress\n- GlobalTech Pilot: Blocked on network config (waiting for firewall rules)\n\nLet me know if you need...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_neha_qa_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:51.972381",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_0be6d11a",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_neha_qa_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Neha Gupta",
+    "source_email_id": "eml_neha_qa_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Neha Gupta",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.005070",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_5260de4d",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to David Chen",
+      "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-24\n\n---\nSubject: Request: Include API Gateway in Phase 2 design\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nAfter reviewing our architecture docs, we realized we should have an API Gateway in the design. This was not in the original plan. Can we add this without pushing back the timeline?\n\nOtherwise we will need to defer it to Phase 3.\n\nLet me know your assessment.\n\nDavid...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_techvision_004",
+      "tags": [
+        "techvision",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from TechVision client needs response",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from TechVision client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.038466",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_8d40c590",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to David Chen",
+      "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-24\n\n---\nSubject: Request: Include API Gateway in Phase 2 design\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nAfter reviewing our architecture docs, we realized we should have an API Gateway in the design. This was not in the original plan. Can we add this without pushing back the timeline?\n\nOtherwise we will need to defer it to Phase 3.\n\nLet me know your assessment.\n\nDavid...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_techvision_004",
+      "tags": [
+        "techvision",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from TechVision client needs response",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from TechVision client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.043166",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_d7edee5d",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_techvision_004",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to David Chen",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to David Chen",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.053653",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_360c0169",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to David Chen",
+      "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-24\n\n---\nSubject: Request: Include API Gateway in Phase 2 design\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nAfter reviewing our architecture docs, we realized we should have an API Gateway in the design. This was not in the original plan. Can we add this without pushing back the timeline?\n\nOtherwise we will need to defer it to Phase 3.\n\nLet me know your assessment.\n\nDavid...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_techvision_004",
+      "tags": [
+        "techvision",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from TechVision client needs response",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from TechVision client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.065432",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_656fd2d1",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_techvision_004",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to David Chen",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to David Chen",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.072918",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_80f94ae5",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to David Chen",
+      "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-24\n\n---\nSubject: Request: Include API Gateway in Phase 2 design\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nAfter reviewing our architecture docs, we realized we should have an API Gateway in the design. This was not in the original plan. Can we add this without pushing back the timeline?\n\nOtherwise we will need to defer it to Phase 3.\n\nLet me know your assessment.\n\nDavid...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_techvision_004",
+      "tags": [
+        "techvision",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from TechVision client needs response",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from TechVision client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.084973",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_ceeea9c2",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_techvision_004",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to David Chen",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to David Chen",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.089128",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_de9c32d8",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to David Chen",
+      "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-24\n\n---\nSubject: Request: Include API Gateway in Phase 2 design\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nKowshik,\n\nAfter reviewing our architecture docs, we realized we should have an API Gateway in the design. This was not in the original plan. Can we add this without pushing back the timeline?\n\nOtherwise we will need to defer it to Phase 3.\n\nLet me know your assessment.\n\nDavid...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_techvision_004",
+      "tags": [
+        "techvision",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from TechVision client needs response",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from TechVision client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.103745",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_299d683d",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_techvision_004",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to David Chen",
+    "source_email_id": "eml_techvision_004",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to David Chen",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.107020",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_e2eb3a12",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: FYI - GlobalTech Board Review Agenda\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_globaltech_fyi_001",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.156401",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_2d92fed2",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: FYI - GlobalTech Board Review Agenda\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_globaltech_fyi_001",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.156401",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_10177ddc",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_globaltech_fyi_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.172861",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_ab970069",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: FYI - GlobalTech Board Review Agenda\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_globaltech_fyi_001",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.183384",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_b7b22ceb",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_globaltech_fyi_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.190642",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_5f7ce756",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: FYI - GlobalTech Board Review Agenda\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_globaltech_fyi_001",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.205529",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_ac967c7d",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_globaltech_fyi_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.206580",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_9d2473fc",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: FYI - GlobalTech Board Review Agenda\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_globaltech_fyi_001",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.222276",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_704686e4",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_globaltech_fyi_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_globaltech_fyi_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.225734",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_bf3d5d3e",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Rajesh Kumar",
+      "description": "\ud83d\udce7 Email from: Rajesh Kumar (rajesh.kumar@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: Reminder: Compliance Training Due by Feb 5\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust a reminder that annual compliance and security training is due by Feb 5. It takes about 45 minutes.\n\nPlease complete ASAP so we remain audit-ready.\n\nRajesh...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_compliance_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.317717",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_ec4f8d27",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Rajesh Kumar",
+      "description": "\ud83d\udce7 Email from: Rajesh Kumar (rajesh.kumar@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: Reminder: Compliance Training Due by Feb 5\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust a reminder that annual compliance and security training is due by Feb 5. It takes about 45 minutes.\n\nPlease complete ASAP so we remain audit-ready.\n\nRajesh...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_compliance_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.323410",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_bf7d5027",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_compliance_001",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Rajesh Kumar",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Rajesh Kumar",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.333775",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_1c1d1d54",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Rajesh Kumar",
+      "description": "\ud83d\udce7 Email from: Rajesh Kumar (rajesh.kumar@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: Reminder: Compliance Training Due by Feb 5\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust a reminder that annual compliance and security training is due by Feb 5. It takes about 45 minutes.\n\nPlease complete ASAP so we remain audit-ready.\n\nRajesh...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_compliance_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.340061",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_904652af",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_compliance_001",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Rajesh Kumar",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Rajesh Kumar",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.357316",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_0fb086bd",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Rajesh Kumar",
+      "description": "\ud83d\udce7 Email from: Rajesh Kumar (rajesh.kumar@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: Reminder: Compliance Training Due by Feb 5\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust a reminder that annual compliance and security training is due by Feb 5. It takes about 45 minutes.\n\nPlease complete ASAP so we remain audit-ready.\n\nRajesh...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_compliance_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.365719",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_19a0712a",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_compliance_001",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Rajesh Kumar",
+    "source_email_id": "eml_internal_compliance_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Rajesh Kumar",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.373704",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_2d4207e6",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Priya Sharma",
+      "description": "\ud83d\udce7 Email from: Priya Sharma (priya.sharma@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-20\n\n---\nSubject: Q1 Tech Debt Review - Submit by Feb 1\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_doc_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.407019",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_4a243f52",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Priya Sharma",
+      "description": "\ud83d\udce7 Email from: Priya Sharma (priya.sharma@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-20\n\n---\nSubject: Q1 Tech Debt Review - Submit by Feb 1\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_doc_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.412532",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_8c27d659",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_doc_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Priya Sharma",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Priya Sharma",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.422576",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_843a753b",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Priya Sharma",
+      "description": "\ud83d\udce7 Email from: Priya Sharma (priya.sharma@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-20\n\n---\nSubject: Q1 Tech Debt Review - Submit by Feb 1\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_doc_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.436668",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_11bdfc68",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_doc_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Priya Sharma",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Priya Sharma",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.440094",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_dc511449",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Priya Sharma",
+      "description": "\ud83d\udce7 Email from: Priya Sharma (priya.sharma@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-20\n\n---\nSubject: Q1 Tech Debt Review - Submit by Feb 1\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_doc_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.456499",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_20c7938a",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_doc_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Priya Sharma",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Priya Sharma",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.456499",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_41ed73a0",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Priya Sharma",
+      "description": "\ud83d\udce7 Email from: Priya Sharma (priya.sharma@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-20\n\n---\nSubject: Q1 Tech Debt Review - Submit by Feb 1\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya...",
+      "priority": "P1",
+      "source_type": "email",
+      "source_ref_id": "eml_internal_doc_001",
+      "tags": [
+        "internal",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from Internal client needs response",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from Internal client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.473371",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_a1ae7e29",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_internal_doc_001",
+      "tone": "professional",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Priya Sharma",
+    "source_email_id": "eml_internal_doc_001",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Priya Sharma",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T04:57:52.473371",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_da207321",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.153237",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_b6a720fb",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.153237",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_67a4bd17",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.166743",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_90ddda95",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.189140",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_794968d8",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.199455",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_be4f2482",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.211862",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_804bfc85",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.220224",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_f41b4103",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.230309",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_45773ebc",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:03:43.238752",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_892f7665",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.754662",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_18e14c5b",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.756189",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_2315af8f",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.765264",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_9812ec07",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.765264",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_e4657cbd",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.781710",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_13188ad7",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.782947",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_c3c718d7",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.782947",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_e64edcf7",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.801466",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_0c6a3c38",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:08:43.804446",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_bfd94bb5",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.873781",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_3abbdd81",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.882450",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_9d007399",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.889856",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_a13264d5",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.897954",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_3b01156c",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.906459",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_3550b46d",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.914502",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_60f4f450",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.920735",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_2a8ffe0d",
+    "action_type": "create_task",
+    "payload": {
+      "title": "Respond to Marcus Lee",
+      "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+      "priority": "P0",
+      "source_type": "email",
+      "source_ref_id": "eml_demo_88c70851",
+      "tags": [
+        "globaltech",
+        "email-response",
+        "agent-created"
+      ]
+    },
+    "reason": "Email from GlobalTech client needs response",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "create_task: Email from GlobalTech client needs response",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.931124",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  },
+  {
+    "action_id": "pa_da76f2a6",
+    "action_type": "draft_email_reply",
+    "payload": {
+      "email_id": "eml_demo_88c70851",
+      "tone": "urgent",
+      "key_points": [
+        "Acknowledge receipt",
+        "Confirm understanding of request",
+        "Provide timeline for response"
+      ],
+      "include_context": true
+    },
+    "reason": "Draft reply to Marcus Lee",
+    "source_email_id": "eml_demo_88c70851",
+    "source_meeting_id": null,
+    "agent_reasoning": "draft_email_reply: Draft reply to Marcus Lee",
+    "session_id": null,
+    "status": "pending",
+    "created_utc": "2026-01-28T05:09:13.937465",
+    "reviewed_utc": null,
+    "reviewed_by": null,
+    "execution_result": null
+  }
+]

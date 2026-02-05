@@ -1,0 +1,12 @@
+[
+  {
+    "user_id": "usr_kowshik_naidu",
+    "display_name": "Kowshik Naidu",
+    "email": "kowshik.naidu@contoso.com",
+    "title": "SmartOps Engineer",
+    "department": "SmartOps",
+    "timezone": "Asia/Kolkata",
+    "communication_tone": "neutral",
+    "sensitivity_clearance": "internal"
+  }
+]

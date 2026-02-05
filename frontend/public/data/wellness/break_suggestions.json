@@ -1,0 +1,177 @@
+{
+  "micro_breaks": [
+    {
+      "id": "micro_001",
+      "activity": "20-20-20 Eye Break",
+      "duration_minutes": 1,
+      "description": "Look at something 20 feet away for 20 seconds to reduce eye strain",
+      "emoji": "👀",
+      "category": "eye_care"
+    },
+    {
+      "id": "micro_002",
+      "activity": "Deep Breaths",
+      "duration_minutes": 1,
+      "description": "Take 5 slow, deep breaths to reset your nervous system",
+      "emoji": "🌬️",
+      "category": "breathing"
+    },
+    {
+      "id": "micro_003",
+      "activity": "Desk Stretch",
+      "duration_minutes": 2,
+      "description": "Neck rolls, shoulder shrugs, and wrist circles at your desk",
+      "emoji": "🙆",
+      "category": "movement"
+    },
+    {
+      "id": "micro_004",
+      "activity": "Posture Reset",
+      "duration_minutes": 1,
+      "description": "Sit up straight, roll shoulders back, align your spine",
+      "emoji": "🪑",
+      "category": "posture"
+    }
+  ],
+  
+  "short_breaks": [
+    {
+      "id": "short_001",
+      "activity": "Hydration Break",
+      "duration_minutes": 5,
+      "description": "Walk to get water and refill your bottle — hydration boosts focus",
+      "emoji": "💧",
+      "category": "hydration"
+    },
+    {
+      "id": "short_002",
+      "activity": "Quick Walk",
+      "duration_minutes": 5,
+      "description": "Walk around the office or step outside briefly for fresh air",
+      "emoji": "🚶",
+      "category": "movement"
+    },
+    {
+      "id": "short_003",
+      "activity": "Mindful Moment",
+      "duration_minutes": 5,
+      "description": "Close your eyes, focus on your breathing, clear your mind",
+      "emoji": "🧘",
+      "category": "mindfulness"
+    },
+    {
+      "id": "short_004",
+      "activity": "Window Gaze",
+      "duration_minutes": 3,
+      "description": "Look out a window at the sky or trees — natural light resets your brain",
+      "emoji": "🌤️",
+      "category": "eye_care"
+    },
+    {
+      "id": "short_005",
+      "activity": "Hand Massage",
+      "duration_minutes": 3,
+      "description": "Massage your hands and fingers to relieve typing tension",
+      "emoji": "✋",
+      "category": "relaxation"
+    }
+  ],
+  
+  "long_breaks": [
+    {
+      "id": "long_001",
+      "activity": "Coffee/Tea Break",
+      "duration_minutes": 15,
+      "description": "Step away completely, enjoy a warm drink, reset your mind",
+      "emoji": "☕",
+      "category": "refreshment"
+    },
+    {
+      "id": "long_002",
+      "activity": "Outdoor Walk",
+      "duration_minutes": 15,
+      "description": "Get fresh air and sunlight — leave your phone behind",
+      "emoji": "🌳",
+      "category": "movement"
+    },
+    {
+      "id": "long_003",
+      "activity": "Social Break",
+      "duration_minutes": 10,
+      "description": "Chat with a colleague about non-work topics",
+      "emoji": "💬",
+      "category": "social"
+    },
+    {
+      "id": "long_004",
+      "activity": "Healthy Snack",
+      "duration_minutes": 10,
+      "description": "Grab a nutritious snack — nuts, fruit, or yogurt",
+      "emoji": "🍎",
+      "category": "nutrition"
+    },
+    {
+      "id": "long_005",
+      "activity": "Music Reset",
+      "duration_minutes": 10,
+      "description": "Listen to a favorite song or calming music with headphones",
+      "emoji": "🎵",
+      "category": "relaxation"
+    }
+  ],
+  
+  "breathing_exercises": [
+    {
+      "id": "breath_001",
+      "name": "Box Breathing",
+      "duration_minutes": 2,
+      "description": "A calming technique used by Navy SEALs to reduce stress",
+      "steps": [
+        "Breathe IN through your nose for 4 counts",
+        "HOLD your breath for 4 counts",
+        "Breathe OUT through your mouth for 4 counts",
+        "HOLD empty for 4 counts",
+        "Repeat 4-6 times"
+      ],
+      "emoji": "📦"
+    },
+    {
+      "id": "breath_002",
+      "name": "4-7-8 Breathing",
+      "duration_minutes": 3,
+      "description": "A relaxation technique that promotes calmness and can help with sleep",
+      "steps": [
+        "Breathe IN quietly through your nose for 4 counts",
+        "HOLD your breath for 7 counts",
+        "Breathe OUT completely through mouth for 8 counts",
+        "Repeat 3-4 times"
+      ],
+      "emoji": "🧘"
+    },
+    {
+      "id": "breath_003",
+      "name": "Quick Reset Breath",
+      "duration_minutes": 1,
+      "description": "A fast stress-relief technique for busy moments",
+      "steps": [
+        "Take a deep breath IN for 3 counts",
+        "Sigh OUT loudly, releasing all tension",
+        "Repeat 3 times"
+      ],
+      "emoji": "⚡"
+    },
+    {
+      "id": "breath_004",
+      "name": "Belly Breathing",
+      "duration_minutes": 3,
+      "description": "Diaphragmatic breathing that activates relaxation response",
+      "steps": [
+        "Place one hand on chest, one on belly",
+        "Breathe IN slowly, letting belly rise (chest stays still)",
+        "Breathe OUT slowly, letting belly fall",
+        "Repeat 5-10 times"
+      ],
+      "emoji": "🫁"
+    }
+  ]
+}

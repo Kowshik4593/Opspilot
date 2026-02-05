@@ -1,0 +1,614 @@
+[
+  {
+    "email_id": "eml_demo_ac9c2e90",
+    "thread_id": "thr_demo_a929fd",
+    "from_email": "priya.sharma@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Some thoughts on the project",
+    "body_text": "Hi Kowshik,\n\nI've been thinking about our current approach and wanted to share some observations:\n\nThings going well:\n- Team collaboration has improved\n- Code quality metrics are up\n- Client feedback is positive\n\nAreas to discuss:\n- The timeline feels aggressive\n- We might need more testing resources\n- Some technical debt is piling up\n\nNo immediate action needed, but I'd love to get your thoughts when you have time. Maybe we can chat about this in our next 1:1?\n\nBest,\nSara Johnson",
+    "received_utc": "2026-01-29T04:42:04.998291",
+    "actionability_gt": "informational",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_dd248a",
+    "processed": true,
+    "agent_actions": [
+      "create_task",
+      "create_followup",
+      "mark_email_processed"
+    ],
+    "demo_sender": true,
+    "sender_name": "Priya Sharma",
+    "sender_title": "Senior Developer, Contoso (Internal)",
+    "processed_utc": "2026-01-29T04:42:05.887054",
+    "agent_category": "informational"
+  },
+  {
+    "email_id": "eml_demo_43cc3a82",
+    "thread_id": "thr_demo_af46a9",
+    "from_email": "sara.johnson@acmecorp.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Need status update for tomorrow's meeting",
+    "body_text": "Hi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nSara Johnson",
+    "received_utc": "2026-01-28T10:37:22.299207",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_f9fcee",
+    "processed": true,
+    "agent_actions": [
+      "create_task",
+      "draft_email_reply",
+      "create_followup",
+      "create_followup"
+    ],
+    "demo_sender": true,
+    "sender_name": "Sara Johnson",
+    "sender_title": "Product Manager, Acme Corp",
+    "processed_utc": "2026-01-28T10:37:24.524401",
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_demo_d30a7fe2",
+    "thread_id": "thr_demo_2e9b9a",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Can we sync this week? Need 30 mins",
+    "body_text": "Hi Kowshik,\n\nHope you're having a good week!\n\nI'd like to schedule a quick sync to discuss the Q2 roadmap priorities. There are a few decisions we need to make together:\n\n- Feature prioritization for the next sprint\n- Resource allocation between projects\n- Timeline for the beta release\n\nWould any of these times work for you?\n- Thursday 2-3 PM\n- Friday 10-11 AM\n\nLet me know what works best. Happy to adjust if needed.\n\nThanks!\nDavid Chen",
+    "received_utc": "2026-01-28T08:25:07.609267",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_875528",
+    "processed": true,
+    "agent_actions": [
+      "create_task",
+      "draft_email_reply",
+      "create_followup",
+      "create_followup"
+    ],
+    "demo_sender": true,
+    "sender_name": "David Chen",
+    "sender_title": "CTO, TechVision Inc",
+    "processed_utc": "2026-01-28T08:25:11.137584",
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_demo_31e2ac0e",
+    "thread_id": "thr_demo_6abe34",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Please review PR #4521 by tomorrow",
+    "body_text": "Hi Kowshik,\n\nCan you please review and approve this PR?\n\nPR: #4521 - Payment Gateway Integration\nBranch: feature/payment-v2\nChanges: +847 / -234 lines\nTests: All passing\n\nKey changes:\n- New Stripe webhooks\n- Retry logic for failures\n- Updated error handling\n\nThis is blocking the Tuesday release. Need your approval by tomorrow noon.\n\nThanks!\nDavid Chen",
+    "received_utc": "2026-01-28T08:22:01.127142",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_ba6d31",
+    "processed": true,
+    "agent_actions": [
+      "create_task",
+      "draft_email_reply",
+      "create_followup",
+      "create_followup"
+    ],
+    "demo_sender": true,
+    "sender_name": "David Chen",
+    "sender_title": "CTO, TechVision Inc",
+    "processed_utc": "2026-01-28T08:22:05.672944",
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_demo_481637d6",
+    "thread_id": "thr_demo_e94971",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Following up on my previous email",
+    "body_text": "Hi Kowshik,\n\nJust following up on my email from last week about the API documentation.\n\nI haven't heard back yet - are you still working on this? The client is asking for an update.\n\nQuick reminder of what I need:\n- Updated API specs\n- Sample code snippets\n- Authentication guide\n\nCan you let me know the status by tomorrow?\n\nThanks,\nDavid Chen",
+    "received_utc": "2026-01-28T08:19:11.165622",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_89b662",
+    "processed": true,
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "demo_sender": true,
+    "sender_name": "David Chen",
+    "sender_title": "CTO, TechVision Inc",
+    "processed_utc": "2026-01-28T08:19:25.619526",
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_demo_88c70851",
+    "thread_id": "thr_demo_a02318",
+    "from_email": "marcus.lee@globaltech.co.uk",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Need status update for tomorrow's meeting",
+    "body_text": "Hi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee",
+    "received_utc": "2026-01-28T05:03:40.108799",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_f9aecc",
+    "processed": true,
+    "agent_actions": [
+      "create_task (queued for approval)",
+      "draft_email_reply (queued for approval)",
+      "create_followup",
+      "create_followup"
+    ],
+    "demo_sender": true,
+    "sender_name": "Marcus Lee",
+    "sender_title": "Head of IT Operations, GlobalTech Ltd",
+    "processed_utc": "2026-01-28T05:09:13.943946",
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_demo_9f2ff527",
+    "thread_id": "thr_demo_d4fcf2",
+    "from_email": "sara.johnson@acmecorp.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "URGENT: Production down - Need immediate help",
+    "body_text": "Hi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but didn't help\n\nI need you to:\n1. Join the war room call immediately\n2. Review the deployment changes from this morning\n3. Coordinate with DevOps on database scaling\n\nThis is P0 - all hands on deck. Client is already escalating.\n\nCall me ASAP.\n\nSara Johnson",
+    "received_utc": "2026-01-28T04:55:27.098110",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_cf72b4",
+    "processed": true,
+    "agent_actions": [
+      "create_task (queued for approval)",
+      "draft_email_reply (queued for approval)",
+      "create_followup",
+      "create_followup"
+    ],
+    "demo_sender": true,
+    "sender_name": "Sara Johnson",
+    "sender_title": "Product Manager, Acme Corp",
+    "processed_utc": "2026-01-28T04:57:51.495613",
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_demo_a2489294",
+    "thread_id": "thr_demo_e6d530",
+    "from_email": "rajesh.kumar@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Quick question about the project timeline",
+    "body_text": "Hi Kowshik,\n\nHope you're doing well!\n\nI wanted to reach out regarding the current project we're working on together. I've been reviewing the deliverables and had a few thoughts I wanted to share.\n\nFirst, I think we're making great progress on the core functionality. The team has been really responsive and the quality of work has been excellent.\n\nHowever, I did notice a few areas where we might want to sync up:\n- The integration timeline seems a bit tight given the dependencies\n- There's been some scope creep that we should address\n\nWould love to get your perspective on these points when you have a moment.\n\nNo rush - just wanted to plant the seed for our next conversation.\n\nBest regards,\nRajesh",
+    "received_utc": "2026-01-28T04:40:01.028492",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_9452cb",
+    "processed": true,
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "demo_sender": true,
+    "sender_name": "Rajesh Kumar",
+    "sender_title": "Engineering Manager, Contoso (Internal)",
+    "processed_utc": "2026-01-28T04:40:09.607282",
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_demo_88a6a98a",
+    "thread_id": "thr_demo_274321",
+    "from_email": "priya.sharma@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Quick question about the project timeline",
+    "body_text": "Hi Kowshik,\n\nHope you're doing well!\n\nI wanted to reach out regarding the current project we're working on together. I've been reviewing the deliverables and had a few thoughts I wanted to share.\n\nFirst, I think we're making great progress on the core functionality. The team has been really responsive and the quality of work has been excellent.\n\nHowever, I did notice a few areas where we might want to sync up:\n- The integration timeline seems a bit tight given the dependencies\n- We may need additional testing resources for the final sprint\n\nWould love to get your perspective on these points when you have a moment.\n\nNo rush - just wanted to plant the seed for our next conversation.\n\nBest regards,\nPriya Sharma",
+    "received_utc": "2026-01-28T04:36:07.873196",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_2b577c",
+    "processed": true,
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "demo_sender": true,
+    "sender_name": "Priya Sharma",
+    "sender_title": "Senior Developer, Contoso (Internal)",
+    "processed_utc": "2026-01-28T04:36:21.656055",
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_demo_42c1d14b",
+    "thread_id": "thr_demo_d16c1e",
+    "from_email": "marcus.lee@globaltech.co.uk",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Quick question about the project timeline",
+    "body_text": "Hi Kowshik,\n\nHope you're doing well!\n\nI wanted to reach out regarding the current project we're working on together. I've been reviewing the deliverables and had a few thoughts I wanted to share.\n\nFirst, I think we're making great progress on the core functionality. The team has been really responsive and the quality of work has been excellent.\n\nHowever, I did notice a few areas where we might want to sync up:\n- The integration timeline seems a bit tight given the dependencies\n- We may need additional testing resources for the final sprint\n- There's been some scope creep that we should address\n\nWould love to get your perspective on these points when you have a moment.\n\nNo rush - just wanted to plant the seed for our next conversation.\n\nBest regards,\nMarcus Lee",
+    "received_utc": "2026-01-28T04:31:22.917832",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_21be0c",
+    "processed": true,
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "demo_sender": true,
+    "sender_name": "Marcus Lee",
+    "sender_title": "Head of IT Operations, GlobalTech Ltd",
+    "processed_utc": "2026-01-28T04:32:18.348769",
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_demo_bcb304c6",
+    "thread_id": "thr_demo_a90776",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Quick question about the project timeline",
+    "body_text": "Hi Kowshik,\n\nHope you're doing well!\n\nI wanted to reach out regarding the current project we're working on together. I've been reviewing the deliverables and had a few thoughts I wanted to share.\n\nFirst, I think we're making great progress on the core functionality. The team has been really responsive and the quality of work has been excellent.\n\nHowever, I did notice a few areas where we might want to sync up:\n- The integration timeline seems a bit tight given the dependencies\n- We may need additional testing resources for the final sprint\n- There's been some scope creep that we should address\n\nWould love to get your perspective on these points when you have a moment.\n\nNo rush - just wanted to plant the seed for our next conversation.\n\nBest regards,\nDavid Chen",
+    "received_utc": "2026-01-28T04:14:13.414969",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_demo_4fac5c",
+    "processed": true,
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "demo_sender": true,
+    "sender_name": "David Chen",
+    "sender_title": "CTO, TechVision Inc",
+    "processed_utc": "2026-01-28T04:14:36.287783",
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_acme_urgent_001",
+    "thread_id": "thr_acme_001",
+    "from_email": "sara.johnson@acmecorp.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "URGENT: API Integration Blocker - Timeline Impact",
+    "body_text": "Hi Kowshik,\n\nWe hit a critical issue on the Acme CoreAPI integration. The authentication module is returning 401 errors in load testing. This blocks our Feb 5 launch date.\n\nCan you review the issue and advise by EOD? We need to decide if we can fix it or delay the deployment.\n\nThanks,\nSara Johnson\nProduct Manager, Acme Corp",
+    "received_utc": "2026-01-27T08:15:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_001",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:14:39.174835",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_techvision_002",
+    "thread_id": "thr_techvision_001",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "RE: Cloud Migration Phase 2 - Infrastructure Requirements",
+    "body_text": "Kowshik,\n\nThank you for the architecture proposal. The team reviewed it and we have some concerns:\n\n1. We need to understand the auto-scaling thresholds better\n2. What is the failover strategy for multi-region deployment?\n3. We need compliance sign-off before proceeding\n\nCan we schedule a technical deep-dive next week (Feb 3 or 4)?\n\nBest,\nDavid Chen\nCTO, TechVision Inc",
+    "received_utc": "2026-01-27T07:45:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_001",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:14:40.173223",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_globaltech_003",
+    "thread_id": "thr_globaltech_001",
+    "from_email": "marcus.lee@globaltech.co.uk",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "GlobalTech Migration - Blockers on Network Configuration",
+    "body_text": "Hello Kowshik,\n\nWe are experiencing delays on the network configuration side. Our internal IT team found that the existing firewall rules will block the new VPN endpoints. This needs to be resolved before we can proceed with the pilot.\n\nCan Amit reach out to our network team to work on a resolution? Timeline is critical - we have a board review on Feb 10.\n\nCheers,\nMarcus\nHead of IT Operations, GlobalTech Ltd",
+    "received_utc": "2026-01-26T15:30:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_001",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:14:42.129170",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_internal_rajesh_001",
+    "thread_id": "thr_internal_001",
+    "from_email": "rajesh.kumar@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Q1 Planning - Budget Review for Acme Project",
+    "body_text": "Kowshik,\n\nI saw the delay notification for the Acme CoreAPI integration. This impacts our Q1 delivery commitments. Can you send me:\n\n1. Root cause analysis\n2. Recovery plan with revised timeline\n3. Impact on other client projects\n\nI need this by tomorrow morning so I can brief the board.\n\nRegards,\nRajesh",
+    "received_utc": "2026-01-27T06:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_internal_001",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:14:43.987313",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_internal_priya_001",
+    "thread_id": "thr_internal_002",
+    "from_email": "priya.sharma@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Acme API Debugging - What do you need from the team?",
+    "body_text": "Hi Kowshik,\n\nI heard about the Acme CoreAPI auth issue. I have been through the logs and it looks like a token expiry mismatch. Before you jump in, do you want me to do a detailed trace? I can have that ready in 2 hours.\n\nAlso, the tech debt review for Q1 is due Feb 1. Should we include this in the list?\n\nCheers,\nPriya",
+    "received_utc": "2026-01-27T08:45:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_002",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:14:45.026337",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_acme_fyi_001",
+    "thread_id": "thr_acme_002",
+    "from_email": "sara.johnson@acmecorp.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "FYI - Acme Q1 Roadmap Update",
+    "body_text": "Kowshik,\n\nJust sharing the updated Q1 roadmap with you for context. The CoreAPI integration is critical for the mid-quarter release. We are also planning a security audit in early March.\n\nPlease review and let me know if you see any conflicts with our planned sprints.\n\nRegards,\nSara",
+    "received_utc": "2026-01-25T14:20:00.000000+00:00",
+    "actionability_gt": "informational",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_002",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:17:38.067501",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_techvision_003",
+    "thread_id": "thr_techvision_002",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Budget approval for TechVision cloud infrastructure",
+    "body_text": "Kowshik,\n\nGreat news! Finance approved the 500k infrastructure spend for Phase 2. We can now move forward with the detailed planning.\n\nLet us sync up tomorrow to finalize the procurement timeline.\n\nDavid",
+    "received_utc": "2026-01-27T05:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_002",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:32:49.812580",
+    "agent_actions": [
+      "manual_processed"
+    ],
+    "agent_category": "processed"
+  },
+  {
+    "email_id": "eml_internal_amit_001",
+    "thread_id": "thr_internal_003",
+    "from_email": "amit.patel@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "GlobalTech Firewall Issue - Need to Escalate?",
+    "body_text": "Hi Kowshik,\n\nI just got off the call with GlobalTech network team. The firewall issue is more complex than we thought - they have legacy rules that were never documented. This could take 3-4 weeks to sort out.\n\nShould I escalate to Rajesh? Or do you want to talk to Marcus directly?\n\nAmit",
+    "received_utc": "2026-01-27T09:15:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_003",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:57:51.661505",
+    "agent_actions": [
+      "create_task (queued for approval)",
+      "draft_email_reply (queued for approval)",
+      "create_followup",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_acme_meeting_004",
+    "thread_id": "thr_acme_001",
+    "from_email": "sara.johnson@acmecorp.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "RE: URGENT: API Integration Blocker - Timeline Impact",
+    "body_text": "Kowshik,\n\nJust got your initial assessment. The 3-day fix is acceptable if you can commit. Can we do a war room session tomorrow morning (8 AM Pacific) with your team and ours?\n\nI will get our API lead on the call too.\n\nSara",
+    "received_utc": "2026-01-27T10:30:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_001",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:57:51.810853",
+    "agent_actions": [
+      "create_task (queued for approval)",
+      "draft_email_reply (queued for approval)",
+      "create_followup",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_neha_qa_001",
+    "thread_id": "thr_internal_004",
+    "from_email": "neha.gupta@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "QA Sign-off Status - Acme, TechVision, GlobalTech",
+    "body_text": "Hi Kowshik,\n\nHere is the current QA status for all active projects:\n\n- Acme CoreAPI: 85% test coverage, ready for UAT\n- TechVision Migration: Infrastructure tests completed, security tests in progress\n- GlobalTech Pilot: Blocked on network config (waiting for firewall rules)\n\nLet me know if you need expedited testing on any front.\n\nNeha",
+    "received_utc": "2026-01-27T07:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_004",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:57:52.011130",
+    "agent_actions": [
+      "create_task (queued for approval)",
+      "draft_email_reply (queued for approval)",
+      "create_followup",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_techvision_004",
+    "thread_id": "thr_techvision_003",
+    "from_email": "david.chen@techvision.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Request: Include API Gateway in Phase 2 design",
+    "body_text": "Kowshik,\n\nAfter reviewing our architecture docs, we realized we should have an API Gateway in the design. This was not in the original plan. Can we add this without pushing back the timeline?\n\nOtherwise we will need to defer it to Phase 3.\n\nLet me know your assessment.\n\nDavid",
+    "received_utc": "2026-01-24T13:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_003",
+    "processed": true,
+    "processed_utc": "2026-01-28T04:57:52.107020",
+    "agent_actions": [
+      "create_task (queued for approval)",
+      "draft_email_reply (queued for approval)",
+      "create_followup",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_globaltech_fyi_001",
+    "thread_id": "thr_globaltech_002",
+    "from_email": "marcus.lee@globaltech.co.uk",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "FYI - GlobalTech Board Review Agenda",
+    "body_text": "Hi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus",
+    "received_utc": "2026-01-22T10:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_002",
+    "processed": true,
+    "processed_utc": "2026-01-28T08:23:55.889045",
+    "agent_actions": [
+      "create_task",
+      "draft_email_reply",
+      "create_followup",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_internal_weekly_001",
+    "thread_id": "thr_internal_005",
+    "from_email": "rajesh.kumar@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Weekly Sync - Monday 10 AM, My office",
+    "body_text": "Hi Kowshik,\n\nJust confirming our weekly sync for Monday 10 AM in my office. We will review progress on all three client projects.\n\nPlease come prepared with status updates and any escalations.\n\nRajesh",
+    "received_utc": "2026-01-26T16:00:00.000000+00:00",
+    "actionability_gt": "informational",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_005",
+    "processed": true,
+    "processed_utc": "2026-01-28T08:23:55.897728",
+    "agent_actions": [
+      "mark_email_processed"
+    ],
+    "agent_category": "informational"
+  },
+  {
+    "email_id": "eml_acme_previous_001",
+    "thread_id": "thr_acme_003",
+    "from_email": "sara.johnson@acmecorp.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Re: Acme CoreAPI Phase 1 - Retrospective",
+    "body_text": "Hi Kowshik,\n\nThanks for the Phase 1 retrospective. Overall, the team is very satisfied with the delivery. We identified a few improvement areas for Phase 2 integration testing.\n\nWhen you have bandwidth, let us discuss the Phase 2 scope.\n\nSara",
+    "received_utc": "2026-01-15T11:30:00.000000+00:00",
+    "actionability_gt": "informational",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_003",
+    "processed": true,
+    "processed_utc": "2026-01-28T08:23:55.928329",
+    "agent_actions": [
+      "create_task",
+      "create_followup",
+      "mark_email_processed"
+    ],
+    "agent_category": "informational"
+  },
+  {
+    "email_id": "eml_internal_compliance_001",
+    "thread_id": "thr_internal_006",
+    "from_email": "rajesh.kumar@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Reminder: Compliance Training Due by Feb 5",
+    "body_text": "Hi Kowshik,\n\nJust a reminder that annual compliance and security training is due by Feb 5. It takes about 45 minutes.\n\nPlease complete ASAP so we remain audit-ready.\n\nRajesh",
+    "received_utc": "2026-01-22T08:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_006",
+    "processed": true,
+    "processed_utc": "2026-01-28T08:23:55.952016",
+    "agent_actions": [
+      "create_task",
+      "draft_email_reply",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  },
+  {
+    "email_id": "eml_internal_doc_001",
+    "thread_id": "thr_internal_007",
+    "from_email": "priya.sharma@contoso.com",
+    "to_emails": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "subject": "Q1 Tech Debt Review - Submit by Feb 1",
+    "body_text": "Hi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya",
+    "received_utc": "2026-01-20T09:00:00.000000+00:00",
+    "actionability_gt": "actionable",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_007",
+    "processed": true,
+    "processed_utc": "2026-01-28T08:23:55.982206",
+    "agent_actions": [
+      "create_task",
+      "draft_email_reply",
+      "create_followup",
+      "create_followup"
+    ],
+    "agent_category": "actionable"
+  }
+]

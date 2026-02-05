@@ -1,0 +1,18 @@
+{
+  "mom_id": "mom_b432f06a",
+  "meeting_id": "mtg_5e59193d",
+  "summary": "Discussion focused on delivery risks, timelines, and maintenance readiness.",
+  "decisions": [
+    "Track identified action items and monitor progress"
+  ],
+  "action_items": [
+    "Follow up on pending items",
+    "Perform additional testing for maintenance tasks"
+  ],
+  "risks": [
+    "Maintenance readiness may be delayed due to insufficient testing",
+    "Project timelines are at risk"
+  ],
+  "dependencies": [],
+  "correlation_id": "corr_53fccbbcd61f4c4091626430524f348d"
+}

@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "score": 72,
+  "description": "Wellness Agent configuration - thresholds, weights, and settings",
+  
+  "score_weights": {
+    "p0_tasks": 25,
+    "overdue": 20,
+    "meetings": 20,
+    "focus_time": 15,
+    "email_backlog": 10,
+    "nudge_pressure": 10
+  },
+  
+  "thresholds": {
+    "p0_tasks": {
+      "green": 1,
+      "yellow": 2,
+      "orange": 3,
+      "red": 4
+    },
+    "overdue": {
+      "green": 0,
+      "yellow": 1,
+      "orange": 3,
+      "red": 5
+    },
+    "meeting_hours": {
+      "green": 3,
+      "yellow": 5,
+      "orange": 6,
+      "red": 7
+    },
+    "focus_minutes": {
+      "green": 90,
+      "yellow": 60,
+      "orange": 30,
+      "red": 15
+    },
+    "actionable_emails": {
+      "green": 3,
+      "yellow": 6,
+      "orange": 10,
+      "red": 15
+    },
+    "critical_nudges": {
+      "green": 1,
+      "yellow": 3,
+      "orange": 5,
+      "red": 7
+    }
+  },
+  
+  "score_levels": {
+    "healthy": {"min": 80, "max": 100, "emoji": "🟢", "label": "Healthy"},
+    "moderate": {"min": 60, "max": 79, "emoji": "🟡", "label": "Moderate"},
+    "elevated": {"min": 40, "max": 59, "emoji": "🟠", "label": "Elevated"},
+    "critical": {"min": 0, "max": 39, "emoji": "🔴", "label": "Critical"}
+  },
+  
+  "burnout_thresholds": {
+    "critical_factors_for_high_risk": 2,
+    "critical_factors_for_critical_risk": 3,
+    "score_threshold_high": 45,
+    "score_threshold_critical": 30
+  },
+  
+  "proactive_nudges": {
+    "enabled": true,
+    "check_interval_minutes": 60,
+    "max_nudges_per_day": 5,
+    "quiet_hours": {
+      "start": "18:00",
+      "end": "09:00"
+    }
+  },
+  
+  "focus_blocks": {
+    "minimum_duration_minutes": 30,
+    "ideal_duration_minutes": 60,
+    "pomodoro_duration_minutes": 25,
+    "work_day_start": "09:00",
+    "work_day_end": "17:00"
+  },
+  
+  "mood_tracking": {
+    "enabled": true,
+    "reminder_enabled": false,
+    "reminder_time": "10:00"
+  }
+}

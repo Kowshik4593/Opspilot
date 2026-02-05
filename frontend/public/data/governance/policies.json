@@ -1,0 +1,19 @@
+{
+  "rate_limits": {
+    "email": 60,
+    "planner": 60,
+    "meeting": 60,
+    "document": 60,
+    "nudge": 60,
+    "reporting": 60
+  },
+  "daily_budgets": {
+    "default": 50.0
+  },
+  "pii_redaction_regex": [
+    "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+  ],
+  "escalation_rules": [
+    "if sensitivity == 'confidential' then require human_review"
+  ]
+}

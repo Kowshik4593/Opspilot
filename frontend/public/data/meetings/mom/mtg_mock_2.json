@@ -1,0 +1,69 @@
+{
+  "meeting_id": "mtg_mock_2",
+  "title": "Project Kickoff - Q1 Initiative",
+  "date": "2025-01-28",
+  "attendees": ["Sara Johnson", "Kowshik Naidu", "David Chen"],
+  "summary": "Kickoff meeting for Q1 initiative to improve team collaboration and increase productivity by 20%. Project involves implementing a new project management and communication platform with AI-powered workflow automation. Three main phases: pilot (Feb 15), full rollout (Mar 31), and full onboarding (end of Q1).",
+  "key_points": [
+    "Three main objectives: improve collaboration, reduce meeting overhead, increase productivity by 20%",
+    "Phase 1: Pilot with engineering team by Feb 15",
+    "Phase 2: Full rollout to all teams by Mar 31",
+    "Phase 3: Full onboarding by end of Q1",
+    "Focus initial automation on email management and meeting scheduling",
+    "Need security review and legal approval - security to be fast-tracked",
+    "Key principles: no downtime, backward compatibility, prioritize UX",
+    "Weekly sync established for Tuesdays at 2 PM"
+  ],
+  "key_decisions": [
+    "Prioritize email management and meeting scheduling automation first",
+    "Establish weekly Tuesday 2 PM sync to track progress",
+    "Use project wiki as single source of truth for documentation",
+    "Maintain no-downtime requirement during rollout",
+    "Ensure backward compatibility throughout implementation",
+    "Pilot with 2-3 engineering teams before full rollout"
+  ],
+  "action_items": [
+    {
+      "task": "Prepare detailed resource plan including time estimates for each phase",
+      "owner": "Kowshik Naidu",
+      "due_date": "2025-01-31"
+    },
+    {
+      "task": "Draft automation engine specification and requirements",
+      "owner": "David Chen",
+      "due_date": "2025-02-05"
+    },
+    {
+      "task": "Coordinate with security team for fast-tracked security review",
+      "owner": "Sara Johnson",
+      "due_date": "2025-02-10"
+    },
+    {
+      "task": "Schedule and conduct architecture finalization meeting",
+      "owner": "Sara Johnson",
+      "due_date": "2025-02-03"
+    },
+    {
+      "task": "Coordinate with HR on resource allocation",
+      "owner": "Sara Johnson",
+      "due_date": "2025-02-01"
+    },
+    {
+      "task": "Select and coordinate with pilot participant teams",
+      "owner": "Sara Johnson",
+      "due_date": "2025-02-05"
+    }
+  ],
+  "next_steps": [
+    "Architecture finalization meeting next Monday (Feb 3)",
+    "Resource allocation check with HR",
+    "Deep dive on automation requirements once architecture is finalized",
+    "Begin pilot participant selection",
+    "Weekly progress sync starting next Tuesday"
+  ],
+  "risks": [
+    "Timeline may be aggressive - needs resource allocation confirmation",
+    "Rework risk if automation requirements change after architecture is finalized"
+  ],
+  "generated_at": "2025-01-28T14:00:00Z"
+}

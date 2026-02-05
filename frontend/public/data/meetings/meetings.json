@@ -1,0 +1,188 @@
+[
+  {
+    "meeting_id": "mtg_acme_war_room",
+    "title": "War Room: Acme CoreAPI Auth Issue Resolution",
+    "organizer_email": "sara.johnson@acmecorp.com",
+    "participant_emails": [
+      "sara.johnson@acmecorp.com",
+      "kowshik.naidu@contoso.com",
+      "priya.sharma@contoso.com",
+      "api_lead@acmecorp.com"
+    ],
+    "scheduled_start_utc": "2026-01-28T12:30:00.000000+00:00",
+    "scheduled_end_utc": "2026-01-28T14:00:00.000000+00:00",
+    "location": "Teams (Acme war room link)",
+    "agenda": "Discuss 401 auth token expiry issue in load testing. Review hotfix approach, testing strategy, rollout plan for Feb 5 launch.",
+    "meeting_type": "critical_issue",
+    "related_project_codes": ["ACME-COREAPI"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_001",
+    "status": "scheduled"
+  },
+  {
+    "meeting_id": "mtg_techvision_deep_dive",
+    "title": "TechVision Phase 2: Technical Architecture Deep Dive",
+    "organizer_email": "david.chen@techvision.com",
+    "participant_emails": [
+      "david.chen@techvision.com",
+      "kowshik.naidu@contoso.com",
+      "priya.sharma@contoso.com",
+      "techvision_arch_lead@techvision.com"
+    ],
+    "scheduled_start_utc": "2026-02-03T18:00:00.000000+00:00",
+    "scheduled_end_utc": "2026-02-03T19:30:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Detailed review of auto-scaling thresholds, multi-region failover strategy, compliance requirements. Address David's architectural concerns from Jan 27 email.",
+    "meeting_type": "technical_review",
+    "related_project_codes": ["TECHVISION-PHASE2"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_001",
+    "status": "scheduled"
+  },
+  {
+    "meeting_id": "mtg_globaltech_firewall_sync",
+    "title": "GlobalTech Network: Firewall VPN Endpoint Resolution",
+    "organizer_email": "amit.patel@contoso.com",
+    "participant_emails": [
+      "marcus.lee@globaltech.co.uk",
+      "amit.patel@contoso.com",
+      "kowshik.naidu@contoso.com",
+      "globaltech_network_team@globaltech.co.uk"
+    ],
+    "scheduled_start_utc": "2026-01-28T08:00:00.000000+00:00",
+    "scheduled_end_utc": "2026-01-28T09:00:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Debug legacy firewall rules blocking VPN endpoints. Review network logs, discuss solution options (exceptions vs redesign). Timeline critical for Feb 10 board review.",
+    "meeting_type": "technical_sync",
+    "related_project_codes": ["GLOBALTECH-MIGRATION"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_001",
+    "status": "scheduled"
+  },
+  {
+    "meeting_id": "mtg_weekly_sync_kowshik",
+    "title": "Weekly Sync: Kowshik & Rajesh - All Client Projects",
+    "organizer_email": "rajesh.kumar@contoso.com",
+    "participant_emails": [
+      "rajesh.kumar@contoso.com",
+      "kowshik.naidu@contoso.com"
+    ],
+    "scheduled_start_utc": "2026-01-27T04:30:00.000000+00:00",
+    "scheduled_end_utc": "2026-01-27T05:30:00.000000+00:00",
+    "location": "Rajesh's office",
+    "agenda": "Review progress on Acme, TechVision, and GlobalTech. Status updates, timeline risks, escalations. Kowshik to bring RCA on Acme API issue.",
+    "meeting_type": "management_sync",
+    "related_project_codes": ["ACME-COREAPI", "TECHVISION-PHASE2", "GLOBALTECH-MIGRATION"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_internal_005",
+    "status": "scheduled"
+  },
+  {
+    "meeting_id": "mtg_techvision_budget_discussion",
+    "title": "TechVision Phase 2: Procurement & Budget Planning",
+    "organizer_email": "david.chen@techvision.com",
+    "participant_emails": [
+      "david.chen@techvision.com",
+      "kowshik.naidu@contoso.com"
+    ],
+    "scheduled_start_utc": "2026-01-28T18:00:00.000000+00:00",
+    "scheduled_end_utc": "2026-01-28T18:45:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Finance approved $500k infrastructure spend. Finalize procurement timeline, vendor selection, delivery schedule.",
+    "meeting_type": "planning",
+    "related_project_codes": ["TECHVISION-PHASE2"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_002",
+    "status": "scheduled"
+  },
+  {
+    "meeting_id": "mtg_acme_phase1_retro",
+    "title": "Acme CoreAPI Phase 1: Retrospective & Lessons Learned",
+    "organizer_email": "sara.johnson@acmecorp.com",
+    "participant_emails": [
+      "sara.johnson@acmecorp.com",
+      "kowshik.naidu@contoso.com",
+      "priya.sharma@contoso.com"
+    ],
+    "scheduled_start_utc": "2024-11-15T11:30:00.000000+00:00",
+    "scheduled_end_utc": "2024-11-15T12:30:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Review Phase 1 delivery, celebrate successes, identify improvement areas for Phase 2. Very satisfied with delivery per Sara's email.",
+    "meeting_type": "retrospective",
+    "related_project_codes": ["ACME-COREAPI"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_003",
+    "actual_start_utc": "2024-11-15T11:45:00.000000+00:00",
+    "actual_end_utc": "2024-11-15T12:35:00.000000+00:00",
+    "status": "completed",
+    "transcript_file": "mtg_acme_phase1_retro.txt"
+  },
+  {
+    "meeting_id": "mtg_techvision_kickoff",
+    "title": "TechVision Phase 2: Project Kickoff & Requirements",
+    "organizer_email": "david.chen@techvision.com",
+    "participant_emails": [
+      "david.chen@techvision.com",
+      "kowshik.naidu@contoso.com",
+      "priya.sharma@contoso.com",
+      "amit.patel@contoso.com"
+    ],
+    "scheduled_start_utc": "2024-11-20T18:00:00.000000+00:00",
+    "scheduled_end_utc": "2024-11-20T19:30:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Phase 2 kickoff - cloud migration scope, auto-scaling requirements, multi-region failover, compliance requirements.",
+    "meeting_type": "kickoff",
+    "related_project_codes": ["TECHVISION-PHASE2"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_003",
+    "actual_start_utc": "2024-11-20T18:05:00.000000+00:00",
+    "actual_end_utc": "2024-11-20T19:40:00.000000+00:00",
+    "status": "completed",
+    "transcript_file": "mtg_techvision_kickoff.txt"
+  },
+  {
+    "meeting_id": "mtg_globaltech_discovery",
+    "title": "GlobalTech Migration: Infrastructure Discovery Session",
+    "organizer_email": "marcus.lee@globaltech.co.uk",
+    "participant_emails": [
+      "marcus.lee@globaltech.co.uk",
+      "kowshik.naidu@contoso.com",
+      "amit.patel@contoso.com"
+    ],
+    "scheduled_start_utc": "2024-11-18T14:00:00.000000+00:00",
+    "scheduled_end_utc": "2024-11-18T15:30:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Discovery session for GlobalTech on-prem to cloud migration. Review current infrastructure, identify challenges, discuss network requirements.",
+    "meeting_type": "discovery",
+    "related_project_codes": ["GLOBALTECH-MIGRATION"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_002",
+    "actual_start_utc": "2024-11-18T14:10:00.000000+00:00",
+    "actual_end_utc": "2024-11-18T15:45:00.000000+00:00",
+    "status": "completed",
+    "transcript_file": "mtg_globaltech_discovery.txt"
+  },
+  {
+    "meeting_id": "mtg_acme_api_war_room_jan26",
+    "title": "Acme API Issue: Initial War Room (Token Expiry Deep Dive)",
+    "organizer_email": "kowshik.naidu@contoso.com",
+    "participant_emails": [
+      "sara.johnson@acmecorp.com",
+      "kowshik.naidu@contoso.com",
+      "priya.sharma@contoso.com",
+      "api_lead@acmecorp.com"
+    ],
+    "scheduled_start_utc": "2024-11-26T16:00:00.000000+00:00",
+    "scheduled_end_utc": "2024-11-26T17:30:00.000000+00:00",
+    "location": "Teams",
+    "agenda": "Emergency war room to diagnose 401 auth token expiry issue discovered in load testing.",
+    "meeting_type": "critical_issue",
+    "related_project_codes": ["ACME-COREAPI"],
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_004",
+    "actual_start_utc": "2024-11-26T16:05:00.000000+00:00",
+    "actual_end_utc": "2024-11-26T17:45:00.000000+00:00",
+    "status": "completed",
+    "transcript_file": "mtg_11aa6dfa.txt"
+  }
+]

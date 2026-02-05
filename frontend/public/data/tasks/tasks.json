@@ -1,0 +1,658 @@
+[
+  {
+    "task_id": "tsk_acme_api_hotfix",
+    "title": "URGENT: Fix Acme CoreAPI auth token expiry issue",
+    "description": "Critical P0 blocker for Feb 5 launch. 401 error in load testing. Token expiration mismatch between auth server and API gateway.",
+    "source": "email",
+    "source_ref_id": "eml_acme_urgent_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P0",
+    "status": "completed",
+    "due_date_utc": "2026-01-29T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 480,
+    "created_utc": "2026-01-27T08:15:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_001",
+    "tags": [
+      "acme",
+      "critical",
+      "api",
+      "auth",
+      "hotfix"
+    ],
+    "category": "Client Work"
+  },
+  {
+    "task_id": "tsk_acme_regression_test",
+    "title": "Coordinate Acme CoreAPI regression testing post-hotfix",
+    "description": "Run full regression test suite after hotfix. Coordinate with Sara (Acme) QA team. Ensure 100% coverage before Feb 5 launch.",
+    "source": "email",
+    "source_ref_id": "eml_acme_meeting_004",
+    "owner_user_id": "usr_neha_gupta",
+    "priority": "P0",
+    "status": "todo",
+    "due_date_utc": "2026-01-30T10:00:00.000000+00:00",
+    "estimated_duration_minutes": 240,
+    "created_utc": "2026-01-27T10:30:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_001",
+    "tags": [
+      "acme",
+      "testing",
+      "qa",
+      "regression"
+    ],
+    "category": "Client Work"
+  },
+  {
+    "task_id": "tsk_acme_war_room",
+    "title": "War room - Acme API blocker resolution",
+    "description": "Meeting with Acme Corp (Sara Johnson, API lead) + Contoso team. Discuss hotfix plan, testing strategy, timeline.",
+    "source": "email",
+    "source_ref_id": "eml_acme_meeting_004",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P0",
+    "status": "scheduled",
+    "due_date_utc": "2026-01-28T12:30:00.000000+00:00",
+    "estimated_duration_minutes": 90,
+    "created_utc": "2026-01-27T10:30:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_001",
+    "tags": [
+      "acme",
+      "meeting",
+      "sync"
+    ],
+    "category": "Client Work"
+  },
+  {
+    "task_id": "tsk_techvision_arch_review",
+    "title": "Deep dive technical review - TechVision Phase 2 architecture",
+    "description": "Address David Chen concerns on auto-scaling thresholds, multi-region failover strategy, compliance requirements.",
+    "source": "email",
+    "source_ref_id": "eml_techvision_002",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "completed",
+    "due_date_utc": "2026-02-03T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 360,
+    "created_utc": "2026-01-27T07:45:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_001",
+    "tags": [
+      "techvision",
+      "architecture",
+      "phase2"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_techvision_api_gateway",
+    "title": "Evaluate API Gateway addition to TechVision Phase 2",
+    "description": "David Chen requested adding API Gateway. Assess impact on timeline, resource allocation, and costs.",
+    "source": "email",
+    "source_ref_id": "eml_techvision_004",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": "2026-01-30T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 180,
+    "created_utc": "2026-01-24T13:00:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_003",
+    "tags": [
+      "techvision",
+      "design",
+      "api_gateway"
+    ],
+    "category": "Backend"
+  },
+  {
+    "task_id": "tsk_techvision_budget_planning",
+    "title": "Finalize procurement timeline for TechVision 500k infrastructure",
+    "description": "Finance approved 500k spend. Work with David Chen to finalize procurement timeline, vendor selection.",
+    "source": "email",
+    "source_ref_id": "eml_techvision_003",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": "2026-01-28T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 120,
+    "created_utc": "2026-01-27T05:00:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_002",
+    "tags": [
+      "techvision",
+      "budget",
+      "procurement"
+    ],
+    "category": "Infrastructure"
+  },
+  {
+    "task_id": "tsk_globaltech_firewall_escalation",
+    "title": "ESCALATE: GlobalTech firewall issue may delay pilot 3-4 weeks",
+    "description": "Amit discovered legacy undocumented firewall rules blocking VPN endpoints. 3-4 week resolution timeline threatens Feb 10 board review.",
+    "source": "email",
+    "source_ref_id": "eml_internal_amit_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P0",
+    "status": "in_progress",
+    "due_date_utc": "2026-01-28T10:00:00.000000+00:00",
+    "estimated_duration_minutes": 60,
+    "created_utc": "2026-01-27T09:15:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_001",
+    "tags": [
+      "globaltech",
+      "blocker",
+      "escalation",
+      "firewall"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_globaltech_network_debug",
+    "title": "Debug and remediate GlobalTech firewall VPN endpoint blocking",
+    "description": "Work with GlobalTech network team to identify legacy firewall rules and propose solutions.",
+    "source": "email",
+    "source_ref_id": "eml_globaltech_003",
+    "owner_user_id": "usr_amit_patel",
+    "priority": "P1",
+    "status": "in_progress",
+    "due_date_utc": "2026-02-06T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 480,
+    "created_utc": "2026-01-26T15:30:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_001",
+    "tags": [
+      "globaltech",
+      "network",
+      "firewall",
+      "troubleshooting"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_globaltech_board_slides",
+    "title": "Prepare GlobalTech board review slides (timeline, risks, ROI)",
+    "description": "Marcus requested slides for Feb 10 board review. Must include timeline/milestones, risk assessment, cost-benefit analysis.",
+    "source": "email",
+    "source_ref_id": "eml_globaltech_fyi_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": "2026-02-05T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 240,
+    "created_utc": "2026-01-22T10:00:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_002",
+    "tags": [
+      "globaltech",
+      "presentation",
+      "executive"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_internal_rajesh_rca",
+    "title": "Prepare RCA and recovery plan for Acme API issue",
+    "description": "Rajesh needs root cause analysis, recovery plan with revised timeline for board brief by tomorrow morning.",
+    "source": "email",
+    "source_ref_id": "eml_internal_rajesh_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P0",
+    "status": "in_progress",
+    "due_date_utc": "2026-01-28T08:00:00.000000+00:00",
+    "estimated_duration_minutes": 120,
+    "created_utc": "2026-01-27T06:00:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_internal_001",
+    "tags": [
+      "internal",
+      "reporting",
+      "acme"
+    ],
+    "category": "Client Work"
+  },
+  {
+    "task_id": "tsk_internal_priya_api_trace",
+    "title": "Perform detailed API token expiry trace and analysis",
+    "description": "Priya offered to do detailed trace on token expiry mismatch. Can be ready in 2 hours.",
+    "source": "email",
+    "source_ref_id": "eml_internal_priya_001",
+    "owner_user_id": "usr_priya_sharma",
+    "priority": "P0",
+    "status": "in_progress",
+    "due_date_utc": "2026-01-27T11:00:00.000000+00:00",
+    "estimated_duration_minutes": 120,
+    "created_utc": "2026-01-27T08:45:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_internal_002",
+    "tags": [
+      "acme",
+      "debugging",
+      "technical"
+    ],
+    "category": "Client Work"
+  },
+  {
+    "task_id": "tsk_internal_qa_status",
+    "title": "QA status assessment - all active projects",
+    "description": "Neha reported: Acme 85% ready for UAT, TechVision infrastructure tests done, GlobalTech blocked.",
+    "source": "email",
+    "source_ref_id": "eml_neha_qa_001",
+    "owner_user_id": "usr_neha_gupta",
+    "priority": "P1",
+    "status": "in_progress",
+    "due_date_utc": "2026-01-28T10:00:00.000000+00:00",
+    "estimated_duration_minutes": 120,
+    "created_utc": "2026-01-27T07:00:00.000000+00:00",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_004",
+    "tags": [
+      "qa",
+      "reporting",
+      "status"
+    ],
+    "category": "QA & Testing"
+  },
+  {
+    "task_id": "tsk_internal_compliance_training",
+    "title": "Complete annual compliance and security training",
+    "description": "Mandatory training due by Feb 5. Takes 45 minutes. Must complete to remain audit-ready.",
+    "source": "email",
+    "source_ref_id": "eml_internal_compliance_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P2",
+    "status": "todo",
+    "due_date_utc": "2026-02-05T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 45,
+    "created_utc": "2026-01-22T08:00:00.000000+00:00",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_006",
+    "tags": [
+      "compliance",
+      "training",
+      "mandatory"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_internal_tech_debt_q1",
+    "title": "Submit Q1 tech debt review list",
+    "description": "Submit list of tech debt items with effort estimates and delivery impact by Feb 1.",
+    "source": "email",
+    "source_ref_id": "eml_internal_doc_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P2",
+    "status": "todo",
+    "due_date_utc": "2026-02-01T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 180,
+    "created_utc": "2026-01-20T09:00:00.000000+00:00",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_007",
+    "tags": [
+      "planning",
+      "quarterly",
+      "technical_debt"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_internal_weekly_sync",
+    "title": "Weekly sync with Rajesh - Monday 10 AM",
+    "description": "Review progress on all three client projects. Bring status updates and any escalations.",
+    "source": "email",
+    "source_ref_id": "eml_internal_weekly_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "scheduled",
+    "due_date_utc": "2026-01-27T04:30:00.000000+00:00",
+    "estimated_duration_minutes": 60,
+    "created_utc": "2026-01-26T16:00:00.000000+00:00",
+    "sensitivity": "internal",
+    "correlation_id": "corr_internal_005",
+    "tags": [
+      "sync",
+      "internal",
+      "management"
+    ],
+    "category": "Meetings"
+  },
+  {
+    "task_id": "tsk_acme_phase2_scope",
+    "title": "Plan Acme Phase 2 scope discussion",
+    "description": "Sara requested Phase 2 scope discussion. Opportunity to clarify requirements post-Phase 1 retrospective.",
+    "source": "email",
+    "source_ref_id": "eml_acme_previous_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P2",
+    "status": "todo",
+    "due_date_utc": "2026-02-10T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 120,
+    "created_utc": "2026-01-15T11:30:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_acme_003",
+    "tags": [
+      "acme",
+      "planning",
+      "phase2"
+    ],
+    "category": "Client Work"
+  },
+  {
+    "task_id": "tsk_techvision_compliance_review",
+    "title": "Initiate compliance review for TechVision Phase 2",
+    "description": "David Chen mentioned need for compliance sign-off before proceeding. Coordinate with compliance team.",
+    "source": "email",
+    "source_ref_id": "eml_techvision_002",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": "2026-02-01T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 120,
+    "created_utc": "2026-01-27T07:45:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_001",
+    "tags": [
+      "techvision",
+      "compliance",
+      "governance"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_techvision_deep_dive",
+    "title": "Schedule technical deep-dive with TechVision team",
+    "description": "Book Feb 3 or 4 for detailed architecture discussion on auto-scaling, failover, compliance.",
+    "source": "email",
+    "source_ref_id": "eml_techvision_002",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "in_progress",
+    "due_date_utc": "2026-01-30T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 30,
+    "created_utc": "2026-01-27T07:45:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_techvision_001",
+    "tags": [
+      "techvision",
+      "meeting",
+      "technical"
+    ],
+    "category": "Meetings"
+  },
+  {
+    "task_id": "tsk_globaltech_contingency_plan",
+    "title": "Develop contingency plan for GlobalTech if firewall fix delays",
+    "description": "If firewall resolution takes 3-4 weeks, what are alternative approaches? Parallel VPN config, phased rollout?",
+    "source": "email",
+    "source_ref_id": "eml_internal_amit_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "priority": "P1",
+    "status": "completed",
+    "due_date_utc": "2026-01-30T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 180,
+    "created_utc": "2026-01-27T09:15:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_001",
+    "tags": [
+      "globaltech",
+      "planning",
+      "risk_mitigation"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_globaltech_pilot_prep",
+    "title": "Prepare GlobalTech pilot environment (when firewall cleared)",
+    "description": "Once firewall issue is resolved, set up pilot environment for testing. Coordinate with Amit.",
+    "source": "email",
+    "source_ref_id": "eml_globaltech_003",
+    "owner_user_id": "usr_amit_patel",
+    "priority": "P1",
+    "status": "blocked",
+    "due_date_utc": "2026-02-10T18:00:00.000000+00:00",
+    "estimated_duration_minutes": 240,
+    "created_utc": "2026-01-26T15:30:00.000000+00:00",
+    "sensitivity": "confidential",
+    "correlation_id": "corr_globaltech_001",
+    "tags": [
+      "globaltech",
+      "pilot",
+      "infra"
+    ],
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_e341e833",
+    "title": "Review email from Sara Johnson",
+    "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-15\n\n---\nSubject: Re: Acme CoreAPI Phase 1 - Retrospective\n\nContains discussion points to review.\n\nEmail preview:\nHi Kowshik,\n\nThanks for the Phase 1 retrospective. Overall, the team is very satisfied with the delivery. We identified a few improvement areas for Phase 2 integration testing.\n\nWhen you have bandwidth, let us discuss the Phase 2 scope.\n\nSara...",
+    "priority": "P3",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_acme_previous_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "acme-corp",
+      "review",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T04:57:52.273058",
+    "created_by": "agent",
+    "category": "General"
+  },
+  {
+    "title": "Respond to Sara Johnson",
+    "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: URGENT: Production down - Need immediate help\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCRITICAL: Production is down!\n\nThe payment service started returning 500 errors 30 minutes ago. We're losing approximately $50K per hour in failed transactions.\n\nWhat we know:\n- Started at 2:15 PM after the latest deployment\n- Database connections are maxing out\n- Rollback attempted but...",
+    "priority": "P0",
+    "source_type": "email",
+    "source_ref_id": "eml_demo_9f2ff527",
+    "tags": [
+      "acme-corp",
+      "email-response",
+      "agent-created"
+    ],
+    "task_id": "tsk_f438910f",
+    "created_utc": "2026-01-28T04:58:16.200302",
+    "status": "completed",
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_5c927768",
+    "title": "Respond to Marcus Lee",
+    "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nMarcus Lee...",
+    "priority": "P0",
+    "status": "completed",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_demo_88c70851",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "globaltech",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T05:47:41.188852",
+    "created_by": "agent",
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_616c9396",
+    "title": "Prepare status update for tomorrow's meeting",
+    "description": "Prepare and provide the status update as requested by Marcus Lee for the meeting scheduled for tomorrow.",
+    "priority": "high",
+    "status": "todo",
+    "due_date_utc": "2023-10-12",
+    "source": "email",
+    "source_ref_id": null,
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [],
+    "created_utc": "2026-01-28T05:53:29.371538",
+    "created_by": "agent",
+    "category": "General"
+  },
+  {
+    "task_id": "tsk_be2196be",
+    "title": "Respond to David Chen",
+    "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Following up on my previous email\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust following up on my email from last week about the API documentation.\n\nI haven't heard back yet - are you still working on this? The client is asking for an update.\n\nQuick reminder of what I need:\n- Updated API specs\n- Sample code snippets\n- Authentication guide\n\nCan you let me know...",
+    "priority": "P1",
+    "status": "completed",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_demo_481637d6",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "techvision",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:19:25.571163",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_98eedd2a",
+    "title": "Respond to David Chen",
+    "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Please review PR #4521 by tomorrow\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you please review and approve this PR?\n\nPR: #4521 - Payment Gateway Integration\nBranch: feature/payment-v2\nChanges: +847 / -234 lines\nTests: All passing\n\nKey changes:\n- New Stripe webhooks\n- Retry logic for failures\n- Updated error handling\n\nThis is blocking the Tuesday release. Nee...",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_demo_31e2ac0e",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "techvision",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:22:05.644138",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_b88eb70c",
+    "title": "Respond to Marcus Lee",
+    "description": "\ud83d\udce7 Email from: Marcus Lee (marcus.lee@globaltech.co.uk)\n\ud83d\udcc1 Client: GlobalTech\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: FYI - GlobalTech Board Review Agenda\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust wanted to give you a heads up - the migration project will be presented to our board on Feb 10. They will be looking for:\n\n1. Timeline and milestones\n2. Risk assessment\n3. Cost-benefit analysis\n\nI will need slides from you by Feb 5 if possible.\n\nMarcus...",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_globaltech_fyi_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "globaltech",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:23:55.872464",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_9eb4e66e",
+    "title": "Review: Re: Acme CoreAPI Phase 1 - Retrospective",
+    "description": "\ud83d\udce7 Email from: Sara Johnson (sara.johnson@acmecorp.com)\n\ud83d\udcc1 Client: Acme Corp\n\ud83d\udcc5 Received: 2026-01-15\n\n---\nSubject: Re: Acme CoreAPI Phase 1 - Retrospective\n\nContains discussion points to review.\n\nEmail preview:\nHi Kowshik,\n\nThanks for the Phase 1 retrospective. Overall, the team is very satisfied with the delivery. We identified a few improvement areas for Phase 2 integration testing.\n\nWhen you have bandwidth, let us discuss the Phase 2 scope.\n\nSara...",
+    "priority": "P3",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_acme_previous_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "acme-corp",
+      "review",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:23:55.916327",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_3b5b7dc2",
+    "title": "Respond to Rajesh Kumar",
+    "description": "\ud83d\udce7 Email from: Rajesh Kumar (rajesh.kumar@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-22\n\n---\nSubject: Reminder: Compliance Training Due by Feb 5\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nJust a reminder that annual compliance and security training is due by Feb 5. It takes about 45 minutes.\n\nPlease complete ASAP so we remain audit-ready.\n\nRajesh...",
+    "priority": "P0",
+    "status": "completed",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_internal_compliance_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "internal",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:23:55.938088",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_7853bd3e",
+    "title": "Respond to Priya Sharma",
+    "description": "\ud83d\udce7 Email from: Priya Sharma (priya.sharma@contoso.com)\n\ud83d\udcc1 Client: Internal\n\ud83d\udcc5 Received: 2026-01-20\n\n---\nSubject: Q1 Tech Debt Review - Submit by Feb 1\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nCan you submit your tech debt list for Q1 review by Feb 1? Please include:\n\n- List of items\n- Estimated effort\n- Impact on delivery\n\nThis helps us prioritize Q2 sprints.\n\nPriya...",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_internal_doc_001",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "internal",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:23:55.964504",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_d358e2e5",
+    "title": "Respond to David Chen",
+    "description": "\ud83d\udce7 Email from: David Chen (david.chen@techvision.com)\n\ud83d\udcc1 Client: TechVision\n\ud83d\udcc5 Received: 2026-01-28\n\n---\nSubject: Can we sync this week? Need 30 mins\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nHope you're having a good week!\n\nI'd like to schedule a quick sync to discuss the Q2 roadmap priorities. There are a few decisions we need to make together:\n\n- Feature prioritization for the next sprint\n- Resource allocation between projects\n- Timeline for the beta release\n\nWould any of...",
+    "priority": "P1",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_demo_d30a7fe2",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "techvision",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T08:25:11.112911",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_831df155",
+    "title": "Respond to Sara Johnson",
+    "description": "Email from: Sara Johnson (sara.johnson@acmecorp.com)\nClient: Acme Corp\nReceived: 2026-01-28\n\n---\nSubject: Need status update for tomorrow's meeting\n\nAction needed: Review and respond to this email.\n\nEmail preview:\nHi Kowshik,\n\nQuick request - I need a status update on the Acme project for tomorrow's steering committee meeting.\n\nCan you please send me:\n- Current progress (% complete)\n- Any blockers or risks\n- Updated ETA for Phase 2\n\nI need this by EOD today so I can prepare the slides.\n\nThanks!\nSara Johnson...",
+    "priority": "P0",
+    "status": "completed",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_demo_43cc3a82",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "acme-corp",
+      "email-response",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-28T10:37:24.491168",
+    "created_by": "agent"
+  },
+  {
+    "task_id": "tsk_962e5c79",
+    "title": "Review: Some thoughts on the project",
+    "description": "Email from: Priya Sharma (priya.sharma@contoso.com)\nClient: Internal\nReceived: 2026-01-29\n\n---\nSubject: Some thoughts on the project\n\nContains discussion points to review.\n\nEmail preview:\nHi Kowshik,\n\nI've been thinking about our current approach and wanted to share some observations:\n\nThings going well:\n- Team collaboration has improved\n- Code quality metrics are up\n- Client feedback is positive\n\nAreas to discuss:\n- The timeline feels aggressive\n- We might need more testing resource...",
+    "priority": "P3",
+    "status": "todo",
+    "due_date_utc": null,
+    "source": "email",
+    "source_ref_id": "eml_demo_ac9c2e90",
+    "owner_user_id": "usr_kowshik_naidu",
+    "tags": [
+      "internal",
+      "review",
+      "agent-created"
+    ],
+    "created_utc": "2026-01-29T04:42:05.866271",
+    "created_by": "agent"
+  }
+]

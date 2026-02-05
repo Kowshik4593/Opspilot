@@ -1,0 +1,4534 @@
+[
+  {
+    "audit_id": "audit_d373a7f5",
+    "timestamp_utc": "2026-01-24T08:53:24.195010+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_111c0644",
+    "timestamp_utc": "2026-01-24T08:53:24.195065+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_4beb58d7"
+    ],
+    "output_refs": [
+      "noise"
+    ],
+    "status": "success",
+    "correlation_id": "corr_da5907627e994794ae103d9e316e1235",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0447d31a",
+    "timestamp_utc": "2026-01-24T08:53:24.195082+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_08f92c48"
+    ],
+    "output_refs": [
+      "noise"
+    ],
+    "status": "success",
+    "correlation_id": "corr_512b140d2cf34f77ac38939379b9be4c",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7ca1055a",
+    "timestamp_utc": "2026-01-24T08:53:24.195093+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_4ccd2927"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2fd881c0e6b84073ab5f0105ec655d8c",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a776ae04",
+    "timestamp_utc": "2026-01-24T08:53:24.195101+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_24d92561"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_adfa496a9e1e43a48053f74007c8fba3",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8e8903d4",
+    "timestamp_utc": "2026-01-24T08:53:24.195109+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_eea293c0"
+    ],
+    "output_refs": [
+      "noise"
+    ],
+    "status": "success",
+    "correlation_id": "corr_048fa71f4cac4a28a9862987dcea4a96",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_402f7be9",
+    "timestamp_utc": "2026-01-24T08:53:24.195116+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_ed9a9b50"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_93e347906ea74e47b063e13a6c9b6641",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_abc65d9a",
+    "timestamp_utc": "2026-01-24T08:53:24.195124+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_3cb328f6"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_d2896caa034240afa19fc2bc5d674581",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5da84c96",
+    "timestamp_utc": "2026-01-24T08:53:24.195131+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_3ea633c4"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_902e2952a5f04c34bed540bda9137630",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_09aefe93",
+    "timestamp_utc": "2026-01-24T08:53:24.195139+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_4835e3b0"
+    ],
+    "output_refs": [
+      "noise"
+    ],
+    "status": "success",
+    "correlation_id": "corr_d3a5b5c8f40148f2962657b1abeb3acc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a04dbdd3",
+    "timestamp_utc": "2026-01-24T08:53:24.195146+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_5467487a"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_412e21011ccd4211b90bbca44e3c638d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_dd465676",
+    "timestamp_utc": "2026-01-24T08:53:24.195153+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_1a6be9cb"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_72c04fa1ca45417697c9604f30806d29",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_22bcca58",
+    "timestamp_utc": "2026-01-24T08:53:24.195161+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_c7614df8"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_b41b726fd1a5465d8ee4e2aa5a419b30",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8f9a58c8",
+    "timestamp_utc": "2026-01-24T08:53:24.195169+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_c323a819"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_4e832854f8244d3e840f236105181c02",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_06ff674c",
+    "timestamp_utc": "2026-01-24T08:53:24.195177+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_c25e9c3c"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_67b61a834d2b4594b03446e0fdda3e07",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_145f608a",
+    "timestamp_utc": "2026-01-24T08:53:24.195190+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "tsk_7a7fc2e9"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2b70ad01",
+    "timestamp_utc": "2026-01-24T08:53:24.195203+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "eml_4ccd2927"
+    ],
+    "output_refs": [
+      "tsk_d0f4c7da"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2fd881c0e6b84073ab5f0105ec655d8c",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ee69556d",
+    "timestamp_utc": "2026-01-24T08:53:24.195212+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "eml_24d92561"
+    ],
+    "output_refs": [
+      "tsk_493ca35f"
+    ],
+    "status": "success",
+    "correlation_id": "corr_adfa496a9e1e43a48053f74007c8fba3",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9f3a0d32",
+    "timestamp_utc": "2026-01-24T08:53:24.195219+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "eml_3ea633c4"
+    ],
+    "output_refs": [
+      "tsk_1ac9aa32"
+    ],
+    "status": "success",
+    "correlation_id": "corr_902e2952a5f04c34bed540bda9137630",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_78ab1aec",
+    "timestamp_utc": "2026-01-24T08:53:24.195226+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "eml_1a6be9cb"
+    ],
+    "output_refs": [
+      "tsk_e7830280"
+    ],
+    "status": "success",
+    "correlation_id": "corr_72c04fa1ca45417697c9604f30806d29",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6be160ae",
+    "timestamp_utc": "2026-01-24T08:53:24.195233+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "eml_c7614df8"
+    ],
+    "output_refs": [
+      "tsk_b16f042b"
+    ],
+    "status": "success",
+    "correlation_id": "corr_b41b726fd1a5465d8ee4e2aa5a419b30",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6c56b522",
+    "timestamp_utc": "2026-01-24T08:53:24.195240+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_311523c4"
+    ],
+    "output_refs": [
+      "tsk_9faec156"
+    ],
+    "status": "success",
+    "correlation_id": "corr_14d243a256544a058cbc4eb649f6b019",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b8d7f7fe",
+    "timestamp_utc": "2026-01-24T08:53:24.195248+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_311523c4"
+    ],
+    "output_refs": [
+      "tsk_72cc3a3d"
+    ],
+    "status": "success",
+    "correlation_id": "corr_14d243a256544a058cbc4eb649f6b019",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_26eb5a8e",
+    "timestamp_utc": "2026-01-24T08:53:24.195255+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_311523c4"
+    ],
+    "output_refs": [
+      "tsk_a9391037"
+    ],
+    "status": "success",
+    "correlation_id": "corr_14d243a256544a058cbc4eb649f6b019",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_15c4ab4d",
+    "timestamp_utc": "2026-01-24T08:53:24.195262+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "tsk_f73ef7f7"
+    ],
+    "status": "success",
+    "correlation_id": "corr_3bf4f64ae9e2469a819e808d8f29f2ed",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e49ce795",
+    "timestamp_utc": "2026-01-24T08:53:24.195269+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "tsk_17366568"
+    ],
+    "status": "success",
+    "correlation_id": "corr_3bf4f64ae9e2469a819e808d8f29f2ed",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_dda71ac4",
+    "timestamp_utc": "2026-01-24T08:53:24.195277+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "tsk_6e12953e"
+    ],
+    "status": "success",
+    "correlation_id": "corr_3bf4f64ae9e2469a819e808d8f29f2ed",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9fcb63df",
+    "timestamp_utc": "2026-01-24T08:53:24.195284+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_5e59193d"
+    ],
+    "output_refs": [
+      "tsk_491932a6"
+    ],
+    "status": "success",
+    "correlation_id": "corr_53fccbbcd61f4c4091626430524f348d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ecaadfc3",
+    "timestamp_utc": "2026-01-24T08:53:24.195293+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_5e59193d"
+    ],
+    "output_refs": [
+      "tsk_766d560a"
+    ],
+    "status": "success",
+    "correlation_id": "corr_53fccbbcd61f4c4091626430524f348d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_17a8b6fe",
+    "timestamp_utc": "2026-01-24T08:53:24.195299+00:00",
+    "actor": "system",
+    "agent": "task_agent",
+    "action": "create_task",
+    "input_refs": [
+      "mtg_5e59193d"
+    ],
+    "output_refs": [
+      "tsk_50025a86"
+    ],
+    "status": "success",
+    "correlation_id": "corr_53fccbbcd61f4c4091626430524f348d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_50d405c0",
+    "timestamp_utc": "2026-01-24T08:53:24.195315+00:00",
+    "actor": "system",
+    "agent": "nudge_agent",
+    "action": "generate_followup",
+    "input_refs": [
+      "tsk_e7830280"
+    ],
+    "output_refs": [
+      "nudge_d76c44df"
+    ],
+    "status": "success",
+    "correlation_id": "corr_72c04fa1ca45417697c9604f30806d29",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_99ae30e0",
+    "timestamp_utc": "2026-01-24T08:53:24.195324+00:00",
+    "actor": "system",
+    "agent": "nudge_agent",
+    "action": "generate_followup",
+    "input_refs": [
+      "tsk_b16f042b"
+    ],
+    "output_refs": [
+      "nudge_a7609a8c"
+    ],
+    "status": "success",
+    "correlation_id": "corr_b41b726fd1a5465d8ee4e2aa5a419b30",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e54f612e",
+    "timestamp_utc": "2026-01-24T08:53:24.195335+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [
+      "tsk_7a7fc2e9",
+      "tsk_1ac9aa32",
+      "tsk_493ca35f",
+      "tsk_b16f042b",
+      "tsk_d0f4c7da",
+      "tsk_e7830280"
+    ],
+    "output_refs": [
+      "eod_2026-01-24_usr_b6b412b0"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2fd881c0e6b84073ab5f0105ec655d8c",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4a9930df",
+    "timestamp_utc": "2026-01-24T08:53:24.195344+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_311523c4"
+    ],
+    "output_refs": [
+      "mom_for_mtg_311523c4"
+    ],
+    "status": "success",
+    "correlation_id": "corr_14d243a256544a058cbc4eb649f6b019",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c759cb26",
+    "timestamp_utc": "2026-01-24T08:53:24.195353+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "mom_for_mtg_11aa6dfa"
+    ],
+    "status": "success",
+    "correlation_id": "corr_3bf4f64ae9e2469a819e808d8f29f2ed",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_226e4652",
+    "timestamp_utc": "2026-01-24T08:53:24.195362+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_5e59193d"
+    ],
+    "output_refs": [
+      "mom_for_mtg_5e59193d"
+    ],
+    "status": "success",
+    "correlation_id": "corr_53fccbbcd61f4c4091626430524f348d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f12c1fb2",
+    "timestamp_utc": "2026-01-27T04:12:06+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_4beb58d7"
+    ],
+    "output_refs": [
+      "noise"
+    ],
+    "status": "success",
+    "correlation_id": "corr_da5907627e994794ae103d9e316e1235",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_55f48532",
+    "timestamp_utc": "2026-01-27T04:12:07+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_4beb58d7"
+    ],
+    "output_refs": [
+      "eml_4beb58d7:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_da5907627e994794ae103d9e316e1235",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1b4d6529",
+    "timestamp_utc": "2026-01-27T04:12:19+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_4beb58d7"
+    ],
+    "output_refs": [
+      "eml_4beb58d7:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_da5907627e994794ae103d9e316e1235",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7c4fbe6e",
+    "timestamp_utc": "2026-01-27T04:15:58+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5c99a2ef",
+    "timestamp_utc": "2026-01-27T04:16:03+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "approve_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b363e81e",
+    "timestamp_utc": "2026-01-27T04:17:44+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c0a18ce5",
+    "timestamp_utc": "2026-01-27T04:17:44+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "eml_b990df08:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b68d9548",
+    "timestamp_utc": "2026-01-27T04:17:59+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "eml_b990df08:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_789f054d",
+    "timestamp_utc": "2026-01-27T04:23:23+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e488e55b",
+    "timestamp_utc": "2026-01-27T04:23:23+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "eml_b990df08:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_fab93ce6",
+    "timestamp_utc": "2026-01-27T04:23:43+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "eml_b990df08:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b4f4be69",
+    "timestamp_utc": "2026-01-27T04:23:48+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "reject_reply",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "eml_b990df08:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e7ecf92d",
+    "timestamp_utc": "2026-01-27T04:23:51+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_b990df08"
+    ],
+    "output_refs": [
+      "eml_b990df08:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_2bfba71640134b5eadae6ccf4de4c11d",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9230e5e9",
+    "timestamp_utc": "2026-01-27T04:24:30+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4bdd21b5",
+    "timestamp_utc": "2026-01-27T04:32:35+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=0",
+      "tasks=0"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_43934188",
+    "timestamp_utc": "2026-01-27T04:33:23+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=0",
+      "tasks=0"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_dbbeb7ca",
+    "timestamp_utc": "2026-01-27T04:33:30+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=0",
+      "tasks=0"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_cbc73190",
+    "timestamp_utc": "2026-01-27T04:33:32+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "approve_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_d6dd46ea",
+    "timestamp_utc": "2026-01-27T04:35:05+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=0",
+      "tasks=0"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b429e67a",
+    "timestamp_utc": "2026-01-27T04:38:40+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=0",
+      "tasks=0"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1c2b6722",
+    "timestamp_utc": "2026-01-27T04:43:45+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=0",
+      "tasks=0"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_db3ba1b5",
+    "timestamp_utc": "2026-01-27T04:44:09+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5b088418",
+    "timestamp_utc": "2026-01-27T05:11:00+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "mtg_11aa6dfa:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_9d64cf9d1754",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_064746b8",
+    "timestamp_utc": "2026-01-27T05:11:13+00:00",
+    "actor": "user",
+    "agent": "meeting_agent",
+    "action": "approve_mom",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "mtg_11aa6dfa:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_9d64cf9d1754",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_fb594d34",
+    "timestamp_utc": "2026-01-27T05:11:22+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_311523c4"
+    ],
+    "output_refs": [
+      "mtg_311523c4:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_93ff48cd3504",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_26c6b918",
+    "timestamp_utc": "2026-01-27T05:14:48+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_11aa6dfa"
+    ],
+    "output_refs": [
+      "mtg_11aa6dfa:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_9d64cf9d1754",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7a9654d5",
+    "timestamp_utc": "2026-01-27T05:15:01+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_5e59193d"
+    ],
+    "output_refs": [
+      "mtg_5e59193d:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_8365750ad494",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c20507c3",
+    "timestamp_utc": "2026-01-27T05:15:24+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_d76c44df",
+      "nudge_a7609a8c"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_43688112",
+    "timestamp_utc": "2026-01-27T05:21:08+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_d76c44df",
+      "nudge_a7609a8c"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1bf7fd74",
+    "timestamp_utc": "2026-01-27T05:22:16+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_d76c44df"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_72c04fa1ca45417697c9604f30806d29",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0397c1ca",
+    "timestamp_utc": "2026-01-27T05:22:17+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "reject_nudge",
+    "input_refs": [
+      "nudge_a7609a8c"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_b41b726fd1a5465d8ee4e2aa5a419b30",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4c673a5a",
+    "timestamp_utc": "2026-01-27T05:22:19+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_a7609a8c"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_b41b726fd1a5465d8ee4e2aa5a419b30",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9494b2dc",
+    "timestamp_utc": "2026-01-27T05:25:27+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_d76c44df",
+      "nudge_a7609a8c"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f452f429",
+    "timestamp_utc": "2026-01-27T05:25:42+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_d76c44df",
+      "nudge_a7609a8c"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_d7c685db",
+    "timestamp_utc": "2026-01-27T05:29:54+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_d76c44df",
+      "nudge_a7609a8c"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7358b323",
+    "timestamp_utc": "2026-01-27T05:29:59+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_d76c44df"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_72c04fa1ca45417697c9604f30806d29",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_07dcf5d0",
+    "timestamp_utc": "2026-01-27T05:29:59+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_a7609a8c"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_b41b726fd1a5465d8ee4e2aa5a419b30",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f180f784",
+    "timestamp_utc": "2026-01-27T05:30:03+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7f9fd0cf",
+    "timestamp_utc": "2026-01-27T05:30:08+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9cd2281e",
+    "timestamp_utc": "2026-01-27T05:34:30+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8e8e18fd",
+    "timestamp_utc": "2026-01-27T05:34:45+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1545a882",
+    "timestamp_utc": "2026-01-27T08:33:46+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_techvision_004"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6a9b278c",
+    "timestamp_utc": "2026-01-27T08:33:46+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_techvision_004"
+    ],
+    "output_refs": [
+      "eml_techvision_004:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_28ba7c7c",
+    "timestamp_utc": "2026-01-27T08:33:56+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_techvision_004"
+    ],
+    "output_refs": [
+      "eml_techvision_004:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_37922557",
+    "timestamp_utc": "2026-01-27T08:34:06+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9942e509",
+    "timestamp_utc": "2026-01-27T08:34:30+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_firewall_sync"
+    ],
+    "output_refs": [
+      "mtg_globaltech_firewall_sync:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_17577a71",
+    "timestamp_utc": "2026-01-27T08:34:43+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_weekly_sync_kowshik"
+    ],
+    "output_refs": [
+      "mtg_weekly_sync_kowshik:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_internal_005",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1a9ccb44",
+    "timestamp_utc": "2026-01-27T08:34:47+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_techvision_deep_dive"
+    ],
+    "output_refs": [
+      "mtg_techvision_deep_dive:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5147c214",
+    "timestamp_utc": "2026-01-27T08:34:53+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e0b71aa3",
+    "timestamp_utc": "2026-01-27T08:34:57+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_compliance_training"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_internal_006",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9d653034",
+    "timestamp_utc": "2026-01-27T08:35:01+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_bbc50e3e",
+    "timestamp_utc": "2026-01-27T08:35:11+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9dd14c84",
+    "timestamp_utc": "2026-01-27T08:35:13+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f98e7d6a",
+    "timestamp_utc": "2026-01-27T08:43:24+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5b8f200e",
+    "timestamp_utc": "2026-01-27T08:50:58+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_discovery"
+    ],
+    "output_refs": [
+      "mtg_globaltech_discovery:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_bbf89bdd",
+    "timestamp_utc": "2026-01-27T08:51:11+00:00",
+    "actor": "user",
+    "agent": "meeting_agent",
+    "action": "approve_mom",
+    "input_refs": [
+      "mtg_globaltech_discovery"
+    ],
+    "output_refs": [
+      "mtg_globaltech_discovery:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_343435cd",
+    "timestamp_utc": "2026-01-27T08:52:23+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_237b130e",
+    "timestamp_utc": "2026-01-27T08:52:24+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8450bb56",
+    "timestamp_utc": "2026-01-27T08:53:16+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5b59998c",
+    "timestamp_utc": "2026-01-27T08:53:52+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_21c38e08",
+    "timestamp_utc": "2026-01-27T08:53:52+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_techvision_kickoff"
+    ],
+    "output_refs": [
+      "mtg_techvision_kickoff:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_19b3f2af",
+    "timestamp_utc": "2026-01-27T08:53:52+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_discovery"
+    ],
+    "output_refs": [
+      "mtg_globaltech_discovery:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b5dc4e2f",
+    "timestamp_utc": "2026-01-27T08:54:36+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_techvision_budget_discussion"
+    ],
+    "output_refs": [
+      "mtg_techvision_budget_discussion:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f4ae5b5b",
+    "timestamp_utc": "2026-01-27T08:54:53+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8e7d6b8d",
+    "timestamp_utc": "2026-01-27T08:55:16+00:00",
+    "actor": "user",
+    "agent": "meeting_agent",
+    "action": "approve_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0c5e0530",
+    "timestamp_utc": "2026-01-27T08:55:22+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ffb76687",
+    "timestamp_utc": "2026-01-27T08:55:33+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_685de631",
+    "timestamp_utc": "2026-01-27T08:55:37+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_34ff1137",
+    "timestamp_utc": "2026-01-27T08:58:07+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_56d90fee",
+    "timestamp_utc": "2026-01-27T08:58:11+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_acme_api_hotfix"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": "corr_acme_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7d405347",
+    "timestamp_utc": "2026-01-27T09:14:02+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_acme_fyi_001"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_eb79e6fe",
+    "timestamp_utc": "2026-01-27T09:14:02+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_acme_fyi_001"
+    ],
+    "output_refs": [
+      "eml_acme_fyi_001:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f819da85",
+    "timestamp_utc": "2026-01-27T09:19:28+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_acme_fyi_001"
+    ],
+    "output_refs": [
+      "informational"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_acbed389",
+    "timestamp_utc": "2026-01-27T09:19:28+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_acme_fyi_001"
+    ],
+    "output_refs": [
+      "eml_acme_fyi_001:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_888ee512",
+    "timestamp_utc": "2026-01-27T09:19:51+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6cba3f60",
+    "timestamp_utc": "2026-01-27T09:20:43+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9c6a4781",
+    "timestamp_utc": "2026-01-27T09:20:47+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_acme_hotfix"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_13b9533b",
+    "timestamp_utc": "2026-01-27T09:20:55+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_946810a5",
+    "timestamp_utc": "2026-01-27T09:21:14+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5dc184e2",
+    "timestamp_utc": "2026-01-27T09:39:49+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5534948e",
+    "timestamp_utc": "2026-01-27T09:40:41+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_274f8427",
+    "timestamp_utc": "2026-01-27T09:54:55+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a3e9b3ac",
+    "timestamp_utc": "2026-01-27T10:11:08+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5a31bf4d",
+    "timestamp_utc": "2026-01-27T10:11:12+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "approve_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1f85d2a8",
+    "timestamp_utc": "2026-01-27T10:11:38+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_afa25d28",
+    "timestamp_utc": "2026-01-27T10:11:42+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_acme_hotfix"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a6a083b2",
+    "timestamp_utc": "2026-01-27T10:11:47+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b0a7c2ed",
+    "timestamp_utc": "2026-01-27T10:11:52+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a16a53c7",
+    "timestamp_utc": "2026-01-27T10:57:37+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_3c273540",
+    "timestamp_utc": "2026-01-27T10:58:48+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "meeting_detox",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "suggestions:3"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9c4c78ef",
+    "timestamp_utc": "2026-01-27T10:58:54+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2a8c4af2",
+    "timestamp_utc": "2026-01-27T10:59:02+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_cefa1751",
+    "timestamp_utc": "2026-01-27T11:00:18+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_75fcc2a9",
+    "timestamp_utc": "2026-01-27T11:00:27+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "suggest_focus_blocks",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "blocks:1"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b56ad4e2",
+    "timestamp_utc": "2026-01-27T11:00:31+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b2008e14",
+    "timestamp_utc": "2026-01-27T11:00:31+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "check_burnout_risk",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "risk:medium"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_65248a13",
+    "timestamp_utc": "2026-01-27T11:02:06+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c07b8373",
+    "timestamp_utc": "2026-01-27T11:02:10+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ead69a06",
+    "timestamp_utc": "2026-01-27T11:02:22+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "suggest_break",
+    "input_refs": [
+      "short"
+    ],
+    "output_refs": [
+      "Hydration Break"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_765e8aa4",
+    "timestamp_utc": "2026-01-27T11:02:27+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "breathing_exercise",
+    "input_refs": [
+      "box"
+    ],
+    "output_refs": [
+      "Box Breathing"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_70207653",
+    "timestamp_utc": "2026-01-27T11:02:41+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_85e38d17",
+    "timestamp_utc": "2026-01-27T11:02:48+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "get_motivation",
+    "input_refs": [],
+    "output_refs": [
+      "motivation_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1f582628",
+    "timestamp_utc": "2026-01-27T11:09:23+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f0a0c717",
+    "timestamp_utc": "2026-01-27T11:09:58+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_820ca2f2",
+    "timestamp_utc": "2026-01-27T11:10:19+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_830bd2e0",
+    "timestamp_utc": "2026-01-27T11:10:23+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6f1a0af5",
+    "timestamp_utc": "2026-01-27T11:10:26+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c7dc61b2",
+    "timestamp_utc": "2026-01-27T11:11:02+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_acme_urgent_001"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_dfbd28a4",
+    "timestamp_utc": "2026-01-27T11:11:02+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_acme_urgent_001"
+    ],
+    "output_refs": [
+      "eml_acme_urgent_001:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_35a06e61",
+    "timestamp_utc": "2026-01-27T11:11:05+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_acme_urgent_001"
+    ],
+    "output_refs": [
+      "eml_acme_urgent_001:reply"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c6acb1a5",
+    "timestamp_utc": "2026-01-27T11:11:29+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_techvision_kickoff"
+    ],
+    "output_refs": [
+      "mtg_techvision_kickoff:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e4eec2bd",
+    "timestamp_utc": "2026-01-27T11:11:35+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_63961e50",
+    "timestamp_utc": "2026-01-27T11:11:42+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c40eecee",
+    "timestamp_utc": "2026-01-27T11:11:48+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7a41835c",
+    "timestamp_utc": "2026-01-27T11:13:20+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7959ddf3",
+    "timestamp_utc": "2026-01-27T11:16:13+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_08cc27a5",
+    "timestamp_utc": "2026-01-27T11:16:21+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f9bd6472",
+    "timestamp_utc": "2026-01-27T11:16:24+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "approve_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1ca3843f",
+    "timestamp_utc": "2026-01-27T11:16:50+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_860aa2b1",
+    "timestamp_utc": "2026-01-27T11:16:54+00:00",
+    "actor": "user",
+    "agent": "followup_agent",
+    "action": "approve_nudge",
+    "input_refs": [
+      "nudge_acme_hotfix"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f752c8e3",
+    "timestamp_utc": "2026-01-27T11:16:59+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_21817376",
+    "timestamp_utc": "2026-01-27T11:17:04+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_55d78721",
+    "timestamp_utc": "2026-01-27T11:18:43+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_15564fdf",
+    "timestamp_utc": "2026-01-27T11:31:51+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_149b9c49",
+    "timestamp_utc": "2026-01-27T11:32:05+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_acme_urgent_001"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_259f0261",
+    "timestamp_utc": "2026-01-27T11:32:05+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_acme_urgent_001"
+    ],
+    "output_refs": [
+      "eml_acme_urgent_001:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_09bca5a1",
+    "timestamp_utc": "2026-01-27T11:32:13+00:00",
+    "actor": "user",
+    "agent": "email_agent",
+    "action": "approve_reply",
+    "input_refs": [
+      "eml_acme_urgent_001"
+    ],
+    "output_refs": [
+      "eml_acme_urgent_001:reply"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_52bed8cc",
+    "timestamp_utc": "2026-01-27T11:32:45+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_83c9a6a9",
+    "timestamp_utc": "2026-01-27T11:32:59+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_60eb32d5",
+    "timestamp_utc": "2026-01-27T11:33:08+00:00",
+    "actor": "user",
+    "agent": "meeting_agent",
+    "action": "approve_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_601046a5",
+    "timestamp_utc": "2026-01-27T11:33:11+00:00",
+    "actor": "system",
+    "agent": "followup_agent",
+    "action": "generate_nudge",
+    "input_refs": [],
+    "output_refs": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_techvision_budget",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm",
+      "nudge_compliance_training",
+      "nudge_tech_debt"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4a8c7edd",
+    "timestamp_utc": "2026-01-27T11:33:25+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_22279c90",
+    "timestamp_utc": "2026-01-27T11:33:29+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ccd2b22d",
+    "timestamp_utc": "2026-01-27T11:33:38+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_d583e944",
+    "timestamp_utc": "2026-01-27T11:33:48+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_3dbea39c",
+    "timestamp_utc": "2026-01-27T11:33:55+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "suggest_break",
+    "input_refs": [
+      "short"
+    ],
+    "output_refs": [
+      "Hydration Break"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4b9824d2",
+    "timestamp_utc": "2026-01-27T11:33:59+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "breathing_exercise",
+    "input_refs": [
+      "box"
+    ],
+    "output_refs": [
+      "Box Breathing"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_aa68eae3",
+    "timestamp_utc": "2026-01-27T11:34:06+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "get_motivation",
+    "input_refs": [],
+    "output_refs": [
+      "motivation_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1bdee42a",
+    "timestamp_utc": "2026-01-27T11:34:13+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com",
+      "great"
+    ],
+    "output_refs": [
+      "mood_recorded"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7cd3f4c3",
+    "timestamp_utc": "2026-01-27T11:34:13+00:00",
+    "actor": "user",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "great"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_60410199",
+    "timestamp_utc": "2026-01-27T11:34:15+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com",
+      "stressed"
+    ],
+    "output_refs": [
+      "mood_recorded"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6982a499",
+    "timestamp_utc": "2026-01-27T11:34:15+00:00",
+    "actor": "user",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "stressed"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_90d13573",
+    "timestamp_utc": "2026-01-27T11:34:29+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:61"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_82a968f2",
+    "timestamp_utc": "2026-01-27T11:34:29+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "check_burnout_risk",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "risk:medium"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6089e47e",
+    "timestamp_utc": "2026-01-27T11:34:32+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "suggest_focus_blocks",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "blocks:1"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_700bf810",
+    "timestamp_utc": "2026-01-27T11:34:35+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "meeting_detox",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "suggestions:3"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c8d998d9",
+    "timestamp_utc": "2026-01-28T04:03:37+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:51"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2594788f",
+    "timestamp_utc": "2026-01-28T04:17:32+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:51"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_90f1617e",
+    "timestamp_utc": "2026-01-28T04:26:26+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_demo_bcb304c6"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_4fac5c",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c4c7d63a",
+    "timestamp_utc": "2026-01-28T04:26:26+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_demo_bcb304c6"
+    ],
+    "output_refs": [
+      "eml_demo_bcb304c6:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_4fac5c",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_15e6d910",
+    "timestamp_utc": "2026-01-28T04:30:58+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:51"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b021e02c",
+    "timestamp_utc": "2026-01-28T04:31:56+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_982e7ce8",
+    "timestamp_utc": "2026-01-28T04:33:08+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:51"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e7eb8e02",
+    "timestamp_utc": "2026-01-28T04:39:38+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:51"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2d69d01b",
+    "timestamp_utc": "2026-01-28T04:42:50+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=15"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4751f8a7",
+    "timestamp_utc": "2026-01-28T04:42:54+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "approve_plan",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_bbf9814d",
+    "timestamp_utc": "2026-01-28T04:57:43+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:51"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_22bafe15",
+    "timestamp_utc": "2026-01-28T04:58:16+00:00",
+    "actor": "demo_user",
+    "agent": "approval_system",
+    "action": "action_approved",
+    "input_refs": [
+      "pa_1c017e51"
+    ],
+    "output_refs": [
+      "create_task"
+    ],
+    "status": "success",
+    "correlation_id": "eml_demo_9f2ff527",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_1ae76fc7",
+    "timestamp_utc": "2026-01-28T04:58:19+00:00",
+    "actor": "demo_user",
+    "agent": "approval_system",
+    "action": "action_approved",
+    "input_refs": [
+      "pa_d615d617"
+    ],
+    "output_refs": [
+      "create_task"
+    ],
+    "status": "success",
+    "correlation_id": "eml_demo_9f2ff527",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f1bddb23",
+    "timestamp_utc": "2026-01-28T04:58:34+00:00",
+    "actor": "system",
+    "agent": "tasks_agent",
+    "action": "schedule_plan",
+    "input_refs": [],
+    "output_refs": [
+      "focus_blocks=3",
+      "tasks=16"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e8ea1cb6",
+    "timestamp_utc": "2026-01-28T05:03:02+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:49"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_3461d1e9",
+    "timestamp_utc": "2026-01-28T05:06:29+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f5b417a4",
+    "timestamp_utc": "2026-01-28T05:06:33+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_15732fb6",
+    "timestamp_utc": "2026-01-28T05:09:40+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:49"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_142bc289",
+    "timestamp_utc": "2026-01-28T05:10:25+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_techvision_arch_review"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_f3a299ec",
+    "timestamp_utc": "2026-01-28T05:14:32+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:49"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_978545f5",
+    "timestamp_utc": "2026-01-28T05:18:17+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:49"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e8631255",
+    "timestamp_utc": "2026-01-28T05:20:39+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:49"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9cd55550",
+    "timestamp_utc": "2026-01-28T05:44:32+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_demo_88c70851"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_f9aecc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e8c2be95",
+    "timestamp_utc": "2026-01-28T05:44:40+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_demo_88c70851"
+    ],
+    "output_refs": [
+      "eml_demo_88c70851:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_f9aecc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ecb012d0",
+    "timestamp_utc": "2026-01-28T05:45:05+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_00ad75e5",
+    "timestamp_utc": "2026-01-28T05:54:35+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_10e77d7e",
+    "timestamp_utc": "2026-01-28T05:55:05+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ae9989c2",
+    "timestamp_utc": "2026-01-28T05:55:43+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8061074a",
+    "timestamp_utc": "2026-01-28T05:55:56+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_fb96c4cc",
+    "timestamp_utc": "2026-01-28T06:13:05+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_74176749",
+    "timestamp_utc": "2026-01-28T06:37:54+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c45a8966",
+    "timestamp_utc": "2026-01-28T06:46:58+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_39642103",
+    "timestamp_utc": "2026-01-28T06:47:09+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_demo_88c70851"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_f9aecc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ca38e67f",
+    "timestamp_utc": "2026-01-28T06:47:13+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "classify_email",
+    "input_refs": [
+      "eml_demo_88c70851"
+    ],
+    "output_refs": [
+      "actionable"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_f9aecc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0fdd9b9a",
+    "timestamp_utc": "2026-01-28T06:47:17+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_demo_88c70851"
+    ],
+    "output_refs": [
+      "eml_demo_88c70851:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_f9aecc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_710bcc6c",
+    "timestamp_utc": "2026-01-28T06:47:17+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_35d3349e",
+    "timestamp_utc": "2026-01-28T06:47:21+00:00",
+    "actor": "system",
+    "agent": "email_agent",
+    "action": "draft_reply",
+    "input_refs": [
+      "eml_demo_88c70851"
+    ],
+    "output_refs": [
+      "eml_demo_88c70851:reply"
+    ],
+    "status": "success",
+    "correlation_id": "corr_demo_f9aecc",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_538d6079",
+    "timestamp_utc": "2026-01-28T06:54:05+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_77de0017",
+    "timestamp_utc": "2026-01-28T06:54:21+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_d3529fd5",
+    "timestamp_utc": "2026-01-28T06:54:40+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_weekly_sync_kowshik"
+    ],
+    "output_refs": [
+      "mtg_weekly_sync_kowshik:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_internal_005",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0f1cf740",
+    "timestamp_utc": "2026-01-28T07:02:00+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5db4e233",
+    "timestamp_utc": "2026-01-28T07:02:15+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7e25797a",
+    "timestamp_utc": "2026-01-28T07:50:53+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_50ee0ef0",
+    "timestamp_utc": "2026-01-28T07:51:02+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_29557d1c",
+    "timestamp_utc": "2026-01-28T07:55:58+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9aa71d12",
+    "timestamp_utc": "2026-01-28T07:56:04+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_dbe82d8d",
+    "timestamp_utc": "2026-01-28T08:00:38+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_38037fbb",
+    "timestamp_utc": "2026-01-28T08:02:17+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_e16050e2",
+    "timestamp_utc": "2026-01-28T08:02:27+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6b6855a9",
+    "timestamp_utc": "2026-01-28T08:04:56+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_techvision_kickoff"
+    ],
+    "output_refs": [
+      "mtg_techvision_kickoff:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9d1e77ae",
+    "timestamp_utc": "2026-01-28T08:05:02+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_techvision_kickoff"
+    ],
+    "output_refs": [
+      "mtg_techvision_kickoff:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_techvision_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_28e45af0",
+    "timestamp_utc": "2026-01-28T08:05:03+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_api_war_room_jan26"
+    ],
+    "output_refs": [
+      "mtg_acme_api_war_room_jan26:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_004",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_d28050b9",
+    "timestamp_utc": "2026-01-28T08:08:24+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_66f17f85",
+    "timestamp_utc": "2026-01-28T08:09:26+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_04d98dba",
+    "timestamp_utc": "2026-01-28T08:10:41+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_discovery"
+    ],
+    "output_refs": [
+      "mtg_globaltech_discovery:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_fcf0aca2",
+    "timestamp_utc": "2026-01-28T08:10:48+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_api_war_room_jan26"
+    ],
+    "output_refs": [
+      "mtg_acme_api_war_room_jan26:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_004",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7811a09c",
+    "timestamp_utc": "2026-01-28T08:11:40+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_weekly_sync_kowshik"
+    ],
+    "output_refs": [
+      "mtg_weekly_sync_kowshik:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_internal_005",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_caf02933",
+    "timestamp_utc": "2026-01-28T08:12:00+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ca377210",
+    "timestamp_utc": "2026-01-28T08:12:31+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_discovery"
+    ],
+    "output_refs": [
+      "mtg_globaltech_discovery:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_002",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b56ded4d",
+    "timestamp_utc": "2026-01-28T08:12:42+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_57ff581d",
+    "timestamp_utc": "2026-01-28T08:13:00+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_231e638d",
+    "timestamp_utc": "2026-01-28T08:13:10+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_99db6cf5",
+    "timestamp_utc": "2026-01-28T08:13:27+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "tell_joke",
+    "input_refs": [],
+    "output_refs": [
+      "joke_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_3bb95307",
+    "timestamp_utc": "2026-01-28T08:13:30+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "suggest_break",
+    "input_refs": [
+      "short"
+    ],
+    "output_refs": [
+      "Hydration Break"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_044e3aa3",
+    "timestamp_utc": "2026-01-28T08:13:31+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "breathing_exercise",
+    "input_refs": [
+      "box"
+    ],
+    "output_refs": [
+      "Box Breathing"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b0ac4f8a",
+    "timestamp_utc": "2026-01-28T08:13:34+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "get_motivation",
+    "input_refs": [],
+    "output_refs": [
+      "motivation_delivered"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_14900c40",
+    "timestamp_utc": "2026-01-28T08:13:38+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com",
+      "great"
+    ],
+    "output_refs": [
+      "mood_recorded"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7af8026f",
+    "timestamp_utc": "2026-01-28T08:13:38+00:00",
+    "actor": "user",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "great"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_294a40ff",
+    "timestamp_utc": "2026-01-28T08:13:44+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com",
+      "tired"
+    ],
+    "output_refs": [
+      "mood_recorded"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_158d4708",
+    "timestamp_utc": "2026-01-28T08:13:44+00:00",
+    "actor": "user",
+    "agent": "wellness_agent",
+    "action": "mood_checkin",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "tired"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_5408b5de",
+    "timestamp_utc": "2026-01-28T08:13:48+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_947b67ea",
+    "timestamp_utc": "2026-01-28T08:13:48+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "check_burnout_risk",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "risk:critical"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9196c1b8",
+    "timestamp_utc": "2026-01-28T08:13:50+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "suggest_focus_blocks",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "blocks:2"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_66e592a5",
+    "timestamp_utc": "2026-01-28T08:13:54+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "meeting_detox",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "suggestions:2"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_bd8b4294",
+    "timestamp_utc": "2026-01-28T08:15:46+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_874d9a00",
+    "timestamp_utc": "2026-01-28T08:15:53+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0fd77ca1",
+    "timestamp_utc": "2026-01-28T08:16:13+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ef0e3262",
+    "timestamp_utc": "2026-01-28T08:18:56+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a7dffc18",
+    "timestamp_utc": "2026-01-28T08:21:50+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b04aba4e",
+    "timestamp_utc": "2026-01-28T08:24:50+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2bc18a1a",
+    "timestamp_utc": "2026-01-28T10:14:27+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_334fef8f",
+    "timestamp_utc": "2026-01-28T10:15:22+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_9d73fc88",
+    "timestamp_utc": "2026-01-28T10:16:06+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2af24d9e",
+    "timestamp_utc": "2026-01-28T10:16:49+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ad78e683",
+    "timestamp_utc": "2026-01-28T10:18:47+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_d05da627",
+    "timestamp_utc": "2026-01-28T10:20:21+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_256ee976",
+    "timestamp_utc": "2026-01-28T10:20:38+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a84888c4",
+    "timestamp_utc": "2026-01-28T10:20:56+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_31060960",
+    "timestamp_utc": "2026-01-28T10:22:55+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_a9d7afce",
+    "timestamp_utc": "2026-01-28T10:24:57+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_8bcd2be4",
+    "timestamp_utc": "2026-01-28T10:25:24+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_08569cc9",
+    "timestamp_utc": "2026-01-28T10:26:05+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_53e1477c",
+    "timestamp_utc": "2026-01-28T10:26:48+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_firewall_sync"
+    ],
+    "output_refs": [
+      "mtg_globaltech_firewall_sync:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_001",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_7cf195a5",
+    "timestamp_utc": "2026-01-28T10:33:49+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_05e18b8a",
+    "timestamp_utc": "2026-01-28T10:34:38+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_3a1d9ee7",
+    "timestamp_utc": "2026-01-28T10:36:35+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:35"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0573e7b0",
+    "timestamp_utc": "2026-01-28T10:37:45+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_f438910f"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_cb1e6ad7",
+    "timestamp_utc": "2026-01-28T10:37:46+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_3b5b7dc2"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_56aae89b",
+    "timestamp_utc": "2026-01-28T10:37:48+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_5c927768"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_4da3d1c1",
+    "timestamp_utc": "2026-01-28T10:37:49+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_globaltech_contingency_plan"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_6790869a",
+    "timestamp_utc": "2026-01-28T10:37:53+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_831df155"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_c6a58ef9",
+    "timestamp_utc": "2026-01-28T10:37:54+00:00",
+    "actor": "user",
+    "agent": "tasks_agent",
+    "action": "mark_complete",
+    "input_refs": [
+      "tsk_be2196be"
+    ],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_66d87c0c",
+    "timestamp_utc": "2026-01-28T10:38:09+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_acme_phase1_retro"
+    ],
+    "output_refs": [
+      "mtg_acme_phase1_retro:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_acme_003",
+    "notes": null
+  },
+  {
+    "audit_id": "audit_ace3f050",
+    "timestamp_utc": "2026-01-28T10:44:08+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:42"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_663101a8",
+    "timestamp_utc": "2026-01-28T10:44:47+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_bb5f1bfd",
+    "timestamp_utc": "2026-01-28T10:44:55+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_703f87bd",
+    "timestamp_utc": "2026-01-28T10:49:52+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:42"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_3f4d3cd3",
+    "timestamp_utc": "2026-01-28T10:50:01+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_b64994e4",
+    "timestamp_utc": "2026-01-28T10:50:13+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_weekly",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_2ed0b443",
+    "timestamp_utc": "2026-01-29T04:22:53+00:00",
+    "actor": "system",
+    "agent": "wellness_agent",
+    "action": "calculate_wellness_score",
+    "input_refs": [
+      "kowshik.naidu@contoso.com"
+    ],
+    "output_refs": [
+      "score:39"
+    ],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_0a36166d",
+    "timestamp_utc": "2026-01-29T04:52:39+00:00",
+    "actor": "system",
+    "agent": "reporting_agent",
+    "action": "generate_eod",
+    "input_refs": [],
+    "output_refs": [],
+    "status": "success",
+    "correlation_id": null,
+    "notes": null
+  },
+  {
+    "audit_id": "audit_735ad846",
+    "timestamp_utc": "2026-01-29T04:52:57+00:00",
+    "actor": "system",
+    "agent": "meeting_agent",
+    "action": "generate_mom",
+    "input_refs": [
+      "mtg_globaltech_firewall_sync"
+    ],
+    "output_refs": [
+      "mtg_globaltech_firewall_sync:mom"
+    ],
+    "status": "success",
+    "correlation_id": "corr_globaltech_001",
+    "notes": null
+  }
+]

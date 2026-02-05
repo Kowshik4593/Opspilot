@@ -1,0 +1,28 @@
+[
+  {
+    "user_id": "usr_kowshik_naidu",
+    "entries": [
+      {
+        "timestamp": "2026-01-27T09:15:00+00:00",
+        "mood": "okay",
+        "emoji": "neutral",
+        "notes": "Monday morning, lots to do",
+        "wellness_score": 65
+      },
+      {
+        "timestamp": "2026-01-26T14:30:00+00:00",
+        "mood": "stressed",
+        "emoji": "stressed",
+        "notes": "Acme deadline pressure",
+        "wellness_score": 52
+      },
+      {
+        "timestamp": "2026-01-24T10:00:00+00:00",
+        "mood": "great",
+        "emoji": "happy",
+        "notes": "Completed major milestone",
+        "wellness_score": 78
+      }
+    ]
+  }
+]

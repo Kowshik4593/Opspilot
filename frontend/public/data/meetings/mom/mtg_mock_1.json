@@ -1,0 +1,43 @@
+{
+  "meeting_id": "mtg_mock_1",
+  "title": "Team Standup",
+  "date": "2025-01-30",
+  "attendees": ["Kowshik Naidu", "Priya Sharma"],
+  "summary": "Team discussed progress on database migration completion and API integration layer work. Database migration successfully completed with all tests passing. API integration expected to be done by EOD. Discussed performance issues found in staging environment.",
+  "key_points": [
+    "Database migration for legacy system completed successfully",
+    "All tests passed - ready for rollout next week",
+    "API integration layer nearing completion",
+    "Performance issues detected in staging environment requiring investigation",
+    "Client feedback received - mostly positive on new UI",
+    "Security review pending from platform team"
+  ],
+  "key_decisions": [
+    "Proceed with database migration rollout next week",
+    "Add performance optimization to tech debt list",
+    "Address client feature requests in next sprint"
+  ],
+  "action_items": [
+    {
+      "task": "Create task for performance issue investigation in staging environment",
+      "owner": "Priya Sharma",
+      "due_date": "2025-01-30"
+    },
+    {
+      "task": "Coordinate with team on overall progress update",
+      "owner": "Kowshik Naidu",
+      "due_date": "2025-01-31"
+    },
+    {
+      "task": "Wait for security review completion from platform team",
+      "owner": "Priya Sharma",
+      "due_date": "2025-02-02"
+    }
+  ],
+  "next_steps": [
+    "Sync with team tomorrow on overall progress",
+    "Investigate and resolve performance issues in staging",
+    "Complete security review for rollout approval"
+  ],
+  "generated_at": "2025-01-30T10:30:00Z"
+}

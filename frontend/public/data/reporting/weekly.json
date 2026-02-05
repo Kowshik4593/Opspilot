@@ -1,0 +1,22 @@
+[
+  {
+    "week_id": "2026-W04",
+    "team_id": "team_smartops",
+    "velocity_metrics": {
+      "story_points_completed": 34,
+      "carryover": 7,
+      "defects": 3
+    },
+    "milestones_achieved": [
+      "ALPHA API gateway deployed to staging"
+    ],
+    "top_risks": [
+      {
+        "risk": "SOW sign-off delay",
+        "owner_email": "user1@contoso.com",
+        "mitigation": "parallelize testing and freeze scope"
+      }
+    ],
+    "exec_summary_gt": "Steady progress, staging deploy for ALPHA complete; SOW sign-off risk tracked with scope guardrails."
+  }
+]

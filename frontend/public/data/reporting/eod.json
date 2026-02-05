@@ -1,0 +1,94 @@
+[
+  {
+    "eod_id": "eod_2026-01-27_kowshik",
+    "user_id": "usr_kowshik_naidu",
+    "date": "2026-01-27",
+    "tasks_completed": [
+      "tsk_acme_war_room",
+      "tsk_internal_weekly_sync",
+      "tsk_techvision_deep_dive"
+    ],
+    "tasks_in_progress": [
+      "tsk_acme_api_hotfix",
+      "tsk_internal_priya_api_trace",
+      "tsk_internal_rajesh_rca",
+      "tsk_globaltech_firewall_escalation",
+      "tsk_follow_up_amit_escalation"
+    ],
+    "tasks_pending": [
+      "tsk_acme_regression_test",
+      "tsk_techvision_api_gateway",
+      "tsk_techvision_budget_planning",
+      "tsk_globaltech_board_slides",
+      "tsk_follow_up_sara_decision"
+    ],
+    "followups_triggered": [
+      "nudge_acme_hotfix",
+      "nudge_globaltech_firewall",
+      "nudge_rajesh_rca",
+      "nudge_acme_sara_confirm"
+    ],
+    "risks_flagged": [
+      "tsk_globaltech_firewall_escalation",
+      "tsk_acme_api_hotfix"
+    ],
+    "narrative_gt": "Intense day managing three critical client projects. CRITICAL: Acme CoreAPI auth issue requires 3-day hotfix (due Wed evening) - war room scheduled for tomorrow 8 AM with Sara, Priya, QA. Prepared RCA and recovery plan for Rajesh's board brief. GlobalTech firewall blocker threatens Feb 10 pilot deadline - escalation decision needed (3-4 week fix vs 2-week workaround). TechVision Phase 2 on track - budget approved, arch deep-dive scheduled Feb 3. Key blockers: (1) Acme hotfix execution, (2) GlobalTech network decision, (3) Rajesh's board brief. High stress day but all critical issues have action plans.",
+    "correlation_ids": [
+      "corr_acme_001",
+      "corr_globaltech_001",
+      "corr_internal_001",
+      "corr_techvision_002"
+    ]
+  },
+  {
+    "eod_id": "eod_2026-01-26_kowshik",
+    "user_id": "usr_kowshik_naidu",
+    "date": "2026-01-26",
+    "tasks_completed": [
+      "tsk_techvision_deep_dive"
+    ],
+    "tasks_in_progress": [
+      "tsk_techvision_arch_review",
+      "tsk_internal_amit_escalation"
+    ],
+    "tasks_pending": [
+      "tsk_acme_api_hotfix",
+      "tsk_globaltech_firewall_escalation",
+      "tsk_techvision_budget_planning"
+    ],
+    "followups_triggered": [
+      "nudge_globaltech_firewall"
+    ],
+    "risks_flagged": [
+      "tsk_globaltech_network_debug"
+    ],
+    "narrative_gt": "Received GlobalTech firewall blocker notification from Marcus - legacy network rules preventing VPN endpoint configuration. Amit initiated debugging with their network team. Estimated 3-4 week fix is critical blocker for Feb 10 board review. TechVision Phase 2 architecture review going well - David's concerns on auto-scaling, failover, compliance are being addressed. Acme project remains stable. Need to evaluate contingency options for GlobalTech timeline.",
+    "correlation_ids": [
+      "corr_globaltech_001",
+      "corr_techvision_001"
+    ]
+  },
+  {
+    "eod_id": "eod_2026-01-25_kowshik",
+    "user_id": "usr_kowshik_naidu",
+    "date": "2026-01-25",
+    "tasks_completed": [
+      "tsk_techvision_budget_planning"
+    ],
+    "tasks_in_progress": [
+      "tsk_techvision_arch_review",
+      "tsk_acme_phase2_scope"
+    ],
+    "tasks_pending": [
+      "tsk_internal_compliance_training",
+      "tsk_internal_tech_debt_q1"
+    ],
+    "followups_triggered": [],
+    "risks_flagged": [],
+    "narrative_gt": "Good progress on TechVision Phase 2 - finance approved $500k spend, David Chen is satisfied with architecture direction. Acme Phase 1 retrospective shows strong customer satisfaction, Phase 2 planning discussions initiated with Sara. GlobalTech migration discussions with Marcus progressing smoothly. Compliance training and tech debt review are background items due early February. Overall delivery trajectory is strong across all three major client projects.",
+    "correlation_ids": [
+      "corr_techvision_002",
+      "corr_acme_003"
+    ]
+  }
+]
